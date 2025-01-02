@@ -1,0 +1,20 @@
+project:
+  type: website
+
+website:
+  title: "Keller Group Lab Manual"
+  navbar:
+      background: light
+      title: false
+      left:
+       - text: "Home"
+         href: index.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
