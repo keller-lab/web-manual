@@ -7,8 +7,14 @@ website:
       background: light
       title: false
       left:
-       - text: "Home"
+       - text: "Welcome!"
          href: index.qmd
+       - text: "Lab Values"
+         href: docs/lab-values/index.qmd
+       - text: "Onboarding"
+         href: docs/onboarding/index.qmd
+       - text: "Guide"
+         href: docs/guide/index.qmd
 
 format:
   html:
