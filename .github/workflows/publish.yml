@@ -42,7 +42,7 @@ jobs:
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: _site
+        FOLDER: .
         CLEAN: true
         GIT_CONFIG_NAME: "Github Action"
         GIT_CONFIG_EMAIL: actions@github.com
