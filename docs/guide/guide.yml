@@ -1,16 +1,16 @@
 - title: Data Analysis
   subtitle: Think, Code, Visualize
   links:
-    - text: Overview
-      href: ../analysis/overview.qmd
+    - text: Our Approach
+      href: ../analysis/our-approach.qmd
     - text: Common GitHub Use Cases
       href: ../analysis/lab-github.qmd
     
 - title: Science Communication
   subtitle: Empathize, Translate, Refine
   links:
-    - text: Overview
-      href: ../sci-comm/overview.qmd
+    - text: Our Goals
+      href: ../sci-comm/our-goals.qmd
     - text: Presentations
       href: ../sci-comm/presentation-guidelines.qmd
 
