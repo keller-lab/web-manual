@@ -21,6 +21,20 @@
     "text": "Credit\nThe organization and content of this lab manual borrows heavily from several documents:\n\nThe Quarto Website & GitHub Repository\nThe Srikrishnan Group at BEE Cornell Lab Manual\nThe Reed Group at Cornel CEE Lab Manual\nThe Julia Workshop for Data Science at ISMB, 2022\n\nA huge thank you to all of these sources for making their work open and instructive!\nWe also thank Adam Pollack for putting together the first draft of the lab manual, leading initial revisions, and coordinating group contributions to the manual. Adam acknowledges the use of several LLMs (e.g., Claude 3.5 Sonnet, GPT-4o, and Llama 3.2 11b) made available by Dartmouth."
   },
   {
+    "objectID": "docs/analysis/our-approach.html",
+    "href": "docs/analysis/our-approach.html",
+    "title": "Our Approach to Data Analysis",
+    "section": "",
+    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nSee if Klaus is ok with us publishing the analysis checklist doc"
+  },
+  {
+    "objectID": "docs/lab-values/index.html",
+    "href": "docs/lab-values/index.html",
+    "title": "Lab Values",
+    "section": "",
+    "text": "Figure 1: Sorry, Klaus, this is not about doggos. Credit: https://www.pexels.com/photo/photo-of-dog-laying-on-grass-3039079/\n\n\n\nOur group holds the following core values (in no particular order):\n\nTransparency: We share our research process, code, data, and limitations openly. We aim to be explicit about the values-laden nature of our work. We push ourselves to communicate honestly and clearly.\nAccessibility: We aim to make our research understandable and available to both academic and public audiences. We design our shared workspaces to accommodate different needs of group members and foster an open environment in which members can confidently request accommodations.\nInclusivity: We believe the healthiest lab environment and best science happens when people with different viewpoints and experiences work together. We actively foster such an environment and aim to make the Keller Group a place where all members feel like they can completely be themselves.\nCuriosity: We crave a lab environment filled with creative ideas, questions, open exchange, and boundary pushing.\nWork-life balance: We understand that research is just one part of who we are. We maintain clear boundaries between work and personal time, and support each other in pursuing interests and commitments outside the lab.\nContributing to real-world problems: Our research is motivated by, and reponsive to, pressing societal challenges. We wish they weren’t so hard and consequential, but we love thinking about wicked problems! We strive to make meaningful impacts beyond academia. This often calls for a transdisciplinary, collaborative, and integrative approach that we all enjoy.\nExcellence: We strive for excellence in all our activities. For example, we want the paper we’re working on to be our best and we treat every talk like a job talk. We are careful, rigorous, and polished. In the words of John Wooden, “if you don’t have time to do it right, when will you have time to do it over?”"
+  },
+  {
     "objectID": "docs/resources.html",
     "href": "docs/resources.html",
     "title": "Additional Resources",
@@ -32,41 +46,11 @@
     ]
   },
   {
-    "objectID": "docs/prof-dev.html",
-    "href": "docs/prof-dev.html",
-    "title": "Professional Development",
-    "section": "",
-    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nOverview\nQuestions to ask oneself through career\nSome helpful resources\n\nApplication checklist\nBuilding a cv\nBuilding a personal webpage",
-    "crumbs": [
-      "Guide",
-      "Professional Development"
-    ]
-  },
-  {
     "objectID": "docs/sci-comm/our-goals.html",
     "href": "docs/sci-comm/our-goals.html",
     "title": "Our Science Communication Goals",
     "section": "",
     "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\nThe idea of this page is to lay out why we care about science communication and providing context about the subsequent guides on being a good communicator for mediums such as presentations, papers, paper contracts, etc., Our goals might follow the message box format -&gt; clear issue, audience, problem statement, so what, etc., Could change this from “goals” to “approach” as well."
-  },
-  {
-    "objectID": "docs/analysis/our-approach.html",
-    "href": "docs/analysis/our-approach.html",
-    "title": "Our Approach to Data Analysis",
-    "section": "",
-    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nSee if Klaus is ok with us publishing the analysis checklist doc"
-  },
-  {
-    "objectID": "docs/materials/reproduce-repos.html",
-    "href": "docs/materials/reproduce-repos.html",
-    "title": "Reproduce Our Projects!",
-    "section": "",
-    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nNeed to figure out the best way to organize the GitHub repos. Maybe there is a cool way to do this by category. For starters, I think a table that allows for sorting (e.g., by year) is good.",
-    "crumbs": [
-      "Guide",
-      "Learning Materials",
-      "Reproduce Our Projects!"
-    ]
   },
   {
     "objectID": "docs/materials/reading-list.html",
@@ -81,15 +65,26 @@
     ]
   },
   {
-    "objectID": "docs/analysis/lab-github.html",
-    "href": "docs/analysis/lab-github.html",
-    "title": "Our Group’s Common GitHub Use Cases",
+    "objectID": "docs/prof-dev.html",
+    "href": "docs/prof-dev.html",
+    "title": "Professional Development",
     "section": "",
-    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nMany tutorials for general GitHub use cases\nThere are a few things we expect you to use GitHub (or other version control) for. We provide guidance and examples for those uses cases on GitHub:\n\nContributing to our lab meetings GitHub\nContributing to this manual\nSetting up a project; use j40_gc as example (plus see other guide on reproducible workflows) -&gt; treat this as a kind of cookbook, not a complete tutorial\nMaintaining a package (use UNSAFE as an example); principles from setting up a project apply but a few differences",
+    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nOverview\nQuestions to ask oneself through career\nSome helpful resources\n\nApplication checklist\nBuilding a cv\nBuilding a personal webpage",
     "crumbs": [
       "Guide",
-      "Data Analysis",
-      "Our Group's Common GitHub Use Cases"
+      "Professional Development"
+    ]
+  },
+  {
+    "objectID": "docs/materials/reproduce-repos.html",
+    "href": "docs/materials/reproduce-repos.html",
+    "title": "Reproduce Our Projects!",
+    "section": "",
+    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nNeed to figure out the best way to organize the GitHub repos. Maybe there is a cool way to do this by category. For starters, I think a table that allows for sorting (e.g., by year) is good.",
+    "crumbs": [
+      "Guide",
+      "Learning Materials",
+      "Reproduce Our Projects!"
     ]
   },
   {
@@ -103,13 +98,6 @@
       "Science Communication",
       "Presentation Guidelines"
     ]
-  },
-  {
-    "objectID": "docs/lab-values/index.html",
-    "href": "docs/lab-values/index.html",
-    "title": "Lab Values",
-    "section": "",
-    "text": "Figure 1: Sorry, Klaus, this is not about doggos. Credit: https://www.pexels.com/photo/photo-of-dog-laying-on-grass-3039079/\n\n\n\nOur group holds the following core values (in no particular order):\n\nTransparency: We share our research process, code, data, and limitations openly. We aim to be explicit about the values-laden nature of our work. We push ourselves to communicate honestly and clearly.\nAccessibility: We aim to make our research understandable and available to both academic and public audiences. We design our shared workspaces to accommodate different needs of group members and foster an open environment in which members can confidently request accommodations.\nInclusivity: We believe the healthiest lab environment and best science happens when people with different viewpoints and experiences work together. We actively foster such an environment and aim to make the Keller Group a place where all members feel like they can completely be themselves.\nCuriosity: We crave a lab environment filled with creative ideas, questions, open exchange, and boundary pushing.\nWork-life balance: We understand that research is just one part of who we are. We maintain clear boundaries between work and personal time, and support each other in pursuing interests and commitments outside the lab.\nContributing to real-world problems: Our research is motivated by, and reponsive to, pressing societal challenges. We wish they weren’t so hard and consequential, but we love thinking about wicked problems! We strive to make meaningful impacts beyond academia. This often calls for a transdisciplinary, collaborative, and integrative approach that we all enjoy.\nExcellence: We strive for excellence in all our activities. For example, we want the paper we’re working on to be our best and we treat every talk like a job talk. We are careful, rigorous, and polished. In the words of John Wooden, “if you don’t have time to do it right, when will you have time to do it over?”"
   },
   {
     "objectID": "docs/checklists.html",
@@ -142,6 +130,18 @@
     "crumbs": [
       "Onboarding",
       "Checklists"
+    ]
+  },
+  {
+    "objectID": "docs/analysis/lab-github.html",
+    "href": "docs/analysis/lab-github.html",
+    "title": "Our Group’s Common GitHub Use Cases",
+    "section": "",
+    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nMany tutorials for general GitHub use cases\nThere are a few things we expect you to use GitHub (or other version control) for. We provide guidance and examples for those uses cases on GitHub:\n\nContributing to our lab meetings GitHub\nContributing to this manual\nSetting up a project; use j40_gc as example (plus see other guide on reproducible workflows) -&gt; treat this as a kind of cookbook, not a complete tutorial\nMaintaining a package (use UNSAFE as an example); principles from setting up a project apply but a few differences",
+    "crumbs": [
+      "Guide",
+      "Data Analysis",
+      "Our Group's Common GitHub Use Cases"
     ]
   },
   {
