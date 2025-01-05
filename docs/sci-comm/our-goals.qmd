@@ -1,0 +1,11 @@
+---
+title: "Our Science Communication Goals"
+format: 
+  html: default
+---
+
+::: {.callout-warning}
+This page is under construction! The content here is currently for planning purposes.
+:::
+
+The idea of this page is to lay out *why* we care about science communication and providing context about the subsequent guides on being a good communicator for mediums such as presentations, papers, paper contracts, etc., Our goals might follow the message box format -> clear issue, audience, problem statement, so what, etc., Could change this from "goals" to "approach" as well. 

@@ -1,0 +1,33 @@
+---
+title: "Welcome to the Keller Group Lab Manual!"
+---
+
+::: {.callout-note}
+## Learn and Contribute!
+This manual is always under construction. If you would like to fix any mistakes, request additional material, or modify content, please submit a new Issue on [GitHub](https://github.com/abpoll/web-manual/issues).
+:::
+
+![This is a temporary figure until we get a new one with the latest group members all together.](images/temp_lab_group_photo.png){#fig-main-col .margin-caption}
+
+## Overview
+
+The purpose of this manual is to help new members and collaborators build a shared base of foundational knowledge for the kind of work we do in the [Keller Lab Group](https://keller-lab.github.io/). This is a collaborative, living document build with [Quarto](https://quarto.org/) and hosted with [GitHub Pages](https://pages.github.com/).  
+
+This manual details lab procedures, policies, and expectations for research group members (and may be helpful for collaborators to consult). The manual contains three sections:
+
+1. [Lab Values](docs/lab-values/index.qmd) outlines the expectations we have for each other and ourselves to ensure a functional, healthy, and productive lab group; it is not a marketplace for Labrador Retrievers. 
+2. [Onboarding](docs/onboarding/index.qmd) is your first stop as a new lab member (and may be helpful for others) to get your working environment and workflows set up. 
+3. [Guide](docs/guide/index.qmd) is the home of our (always growing!) lab resources, how-tos, and tips for building a strong knowedge foundation for the kind of work we do in the group. 
+
+
+## Credit
+The organization and content of this lab manual borrows heavily from several documents:
+
+1. The [Quarto Website & GitHub Repository](https://github.com/quarto-dev/quarto-web) 
+2. The [Srikrishnan Group at BEE Cornell Lab Manual](https://viveks.bee.cornell.edu/lab-manual/)
+3. The [Reed Group at Cornel CEE Lab Manual](https://reedgroup.github.io/intro.html)
+4. The [Julia Workshop for Data Science](https://crsl4.github.io/julia-workshop/) at ISMB, 2022
+
+A huge thank you to all of these sources for making their work open and instructive! 
+
+We also thank Adam Pollack for putting together the first draft of the lab manual, leading initial revisions, and coordinating group contributions to the manual. Adam acknowledges the use of several LLMs (e.g., Claude 3.5 Sonnet, GPT-4o, and Llama 3.2 11b) made available by Dartmouth. 

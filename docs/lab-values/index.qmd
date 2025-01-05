@@ -1,0 +1,21 @@
+---
+title: "Lab Values"
+---
+
+![Sorry, Klaus, this is not about doggos. Credit: https://www.pexels.com/photo/photo-of-dog-laying-on-grass-3039079/](images/pexels-chetanvlad-3039079.jpg){#fig-main-col .margin-caption}
+
+Our group holds the following core values (in no particular order):
+
+* **Transparency**: We share our research process, code, data, and limitations openly. We aim to be explicit about the values-laden nature of our work. We push ourselves to communicate honestly and clearly. 
+
+* **Accessibility**: We aim to make our research understandable and available to both academic and public audiences. We design our shared workspaces to accommodate different needs of group members and foster an open environment in which members can confidently request accommodations. 
+
+* **Inclusivity**: We believe the healthiest lab environment and best science happens when people with different viewpoints and experiences work together. We actively foster such an environment and aim to make the Keller Group a place where all members feel like they can completely be themselves. 
+
+* **Curiosity**: We crave a lab environment filled with creative ideas, questions, open exchange, and boundary pushing. 
+
+* **Work-life balance**: We understand that research is just one part of who we are. We maintain clear boundaries between work and personal time, and support each other in pursuing interests and commitments outside the lab.
+
+* **Contributing to real-world problems**: Our research is motivated by, and reponsive to, pressing societal challenges. We wish they weren't so hard and consequential, but we love thinking about wicked problems! We strive to make meaningful impacts beyond academia. This often calls for a transdisciplinary, collaborative, and integrative approach that we all enjoy. 
+
+* **Excellence**: We strive for excellence in all our activities. For example, we want the paper we're working on to be our best and we treat every talk like a job talk. We are careful, rigorous, and polished. In the words of John Wooden, "if you don't have time to do it right, when will you have time to do it over?"

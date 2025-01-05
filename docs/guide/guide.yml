@@ -1,0 +1,23 @@
+- title: Data Analysis
+  subtitle: Think, Code, Visualize
+  links:
+    - text: Our Approach
+      href: ../analysis/our-approach.qmd
+    - text: Common GitHub Use Cases
+      href: ../analysis/lab-github.qmd
+    
+- title: Science Communication
+  subtitle: Empathize, Translate, Refine
+  links:
+    - text: Our Goals
+      href: ../sci-comm/our-goals.qmd
+    - text: Presentations
+      href: ../sci-comm/presentation-guidelines.qmd
+
+- title: Learning Materials
+  subtitle: Read, Run, Learn
+  links:
+    - text: Reading Lists
+      href: ../materials/reading-list.qmd
+    - text: Repositories
+      href: ../materials/reproduce-repos.qmd
