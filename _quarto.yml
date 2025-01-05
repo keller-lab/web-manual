@@ -6,6 +6,14 @@ execute:
 
 website:
   title: "Keller Group Lab Manual"
+  repo-url: https://github.com/abpoll/web-manual
+  issue-url: https://github.com/abpoll/web-manual/issues
+  repo-actions: [edit, issue]
+  page-footer:
+    right:
+      - icon: github
+        href: https://github.com/keller-lab
+        aria-label: Keller Lab GitHub
   navbar:
       background: light
       title: false
