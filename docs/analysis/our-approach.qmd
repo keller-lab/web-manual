@@ -9,3 +9,4 @@ This page is under construction! The content here is currently for planning purp
 :::
 
 * See if Klaus is ok with us publishing the analysis checklist doc
+* Could organize the checklist doc with hyperlinks to other pages in the section
