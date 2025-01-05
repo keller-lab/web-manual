@@ -18,6 +18,13 @@ website:
          href: docs/onboarding/index.qmd
        - text: "Guide"
          href: docs/guide/index.qmd
+      tools:
+       - icon: github
+         menu:
+          - text: Source Code
+            href:  https://github.com/abpoll/web-manual
+          - text: Report a Bug
+            href:  https://github.com/abpoll/web-manual/issues
 
   sidebar:
     - id: onboarding
