@@ -32,20 +32,18 @@ jobs:
 
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
   
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
+      - name: Commit and push
+      uses: JamesIves/github-pages-deploy-action@3.7.1
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: _site
+        CLEAN: true
+        GIT_CONFIG_NAME: "Github Action"
+        GIT_CONFIG_EMAIL: actions@github.com
+        COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
