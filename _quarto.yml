@@ -16,11 +16,42 @@ website:
        - text: "Guide"
          href: docs/guide/index.qmd
 
+  sidebar:
+    - id: onboarding
+      collapse-level: 1
+      contents:
+        - section: "Onboarding"
+          href: docs/onboarding/index.qmd
+          contents:
+            - text: "Checklists"
+              href: docs/checklists.qmd
+            - text: "Resources"
+              href: docs/resources.qmd
+              
+    - id: guide
+      collapse-level: 1
+      contents:
+        - section: "Guide"
+          href: docs/guide/index.qmd
+          contents:
+           - section: "Data Analysis"
+             contents:
+              - docs/analysis/overview.qmd
+              - docs/analysis/lab-github.qmd
+           - section: "Science Communication"
+             contents: 
+              - docs/sci-comm/overview.qmd
+              - docs/sci-comm/presentation-guidelines.qmd
+           - section: "Learning Materials"
+             contents: 
+              - docs/materials/reading-list.qmd
+              - docs/materials/reproduce-repos.qmd
+           - text: "Professional Development"
+             href: docs/prof-dev.qmd
+
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
-
 

@@ -29,3 +29,5 @@ The organization and content of this lab manual borrows heavily from several doc
 4. The [Julia Workshop for Data Science](https://crsl4.github.io/julia-workshop/) at ISMB, 2022
 
 A huge thank you to all of these sources for making their work open and instructive! 
+
+We also thank Adam Pollack for putting together the first draft of the lab manual, leading initial revisions, and coordinating group contributions to the manual. Adam acknowledges the use of several LLMs (e.g., Claude 3.5 Sonnet, GPT-4o, and Llama 3.2 11b) made available by Dartmouth. 

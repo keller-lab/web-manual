@@ -1,0 +1,16 @@
+---
+title: "Our Group's Common GitHub Use Cases"
+format: 
+  html: default
+---
+
+::: {.callout-warning}
+This page is under construction! The content here is currently for planning purposes.
+:::
+
+* Many tutorials for general GitHub use cases
+* There are a few things we expect you to use GitHub (or other version control) for. We provide guidance and examples for those uses cases on GitHub:
+  - Contributing to our lab meetings GitHub
+  - Contributing to this manual
+  - Setting up a project; use j40_gc as example (plus see other guide on reproducible workflows) -> treat this as a kind of cookbook, not a complete tutorial
+  - Maintaining a package (use UNSAFE as an example); principles from setting up a project apply but a few differences
