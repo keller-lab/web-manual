@@ -34,10 +34,15 @@ jobs:
         uses: quarto-dev/quarto-actions/render@v2
   
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
+      with:
+        page: '_site/'
     - name: Deploy to GitHub Pages
       uses: actions/deploy-pages@v4
