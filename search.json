@@ -39,7 +39,29 @@
     "href": "docs/resources.html",
     "title": "Additional Resources",
     "section": "",
-    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\nResearch Stuff * Dartmouth Libraries - Jentry Campbell - What kinds of inquiries * Dartmouth Research Services - What kinds of inquiries * Thayer Computing - What kinds of inquiries\nLife Stuff * Things to do in the upper valley (breakdown by season) * Networks for building a social life * Finding housing * Getting around",
+    "text": "There are a number of resources you should familiarize yourself with as a part of your onboarding. It may also be helpful to revisit this list from time to time after you settle in. Poke around and see what is useful to adopt in your workflows.",
+    "crumbs": [
+      "Onboarding",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "docs/resources.html#resources-for-research",
+    "href": "docs/resources.html#resources-for-research",
+    "title": "Additional Resources",
+    "section": "Resources for Research",
+    "text": "Resources for Research\n\nDartmouth Libraries\n\nDefinitely check out the links connected to Data Services.\nThere are nice workshop series for learning the fundamentals of topics like python, LaTeX, GitHub, etc., Check them out and contribute your knowledge to the manual!\n\nThayer School Computing Services Knowledge Base.\n\nNot extensive but several articles will likely become a key part of your workflows\n\nAI Tools repository.\n\nWe are very lucky to have access to a number of AI tools, especially the Dartmouth Chat app that supports commercial and open-source models for all Dartmouth members.",
+    "crumbs": [
+      "Onboarding",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "docs/resources.html#resources-for-life",
+    "href": "docs/resources.html#resources-for-life",
+    "title": "Additional Resources",
+    "section": "Resources for life",
+    "text": "Resources for life\n\nEnjoy the upper valley!!\n\nExplore\nConnect to existing communities\n\nHousing in the upper valley\n\nRentals for grad students and postdocs\nCraigslist sometimes has good finds\n\nGood Facebook marketplace for furniture!\nTake the bus if you can",
     "crumbs": [
       "Onboarding",
       "Resources"
@@ -104,7 +126,18 @@
     "href": "docs/checklists.html",
     "title": "Onboarding Checklists",
     "section": "",
-    "text": "This document is available as a pdf (see the right margin) so that you may download and check/highlight items as you complete them.\n\n\n\nReview Lab Values\nSet up your calendar (e.g., Outlook)\nSet up your weekly meeting schedule\nAccept Klaus’s invitation to our group’s lab meeting GitHub repo\nFind out who to ask for lab meeting invite\nFind out who to ask for Slack workspace invite\nFind out who to ask for webpage profile\nFind out who to talk to at Irving or Thayer for your ID card, office access, etc., if you don’t already know\nDiscuss research interests and potential projects\n\n\n\n\n\nSend photo, bio, contact, socials to web manager\n\nCheck out existing profiles for examples\n\nJoin group Slack and browse/join channels\n Thayer Computing for access to Kasper and jumbo/keller-lab/ and CC Klaus (he will tell computing gurus it is ok to add you)\n\n\n\n\n\nCheck out the lab meeting repo and add yourself to the next presentation block\n\nNote: Depending on your experience level, you may find it helpful to consult some examples.\n\nPrepare a 5 minute max presentation to introduce yourself to the group\n\nReview our presentation guidelines\n\n\n\n\n\nNow that you have followed these steps, your tasks in the group will become more organic and unique to your chosen path. There is some reading material we strongly recommend for all lab members (and Klaus may assign some), but you can otherwise go through the reading list as best suits your early exploration and planning stages. Otherwise, work through the tutorials in the Guide and find projects to reproduce!",
+    "text": "Have fun and be safe\nReview your personal motivation, values, and professional goals",
+    "crumbs": [
+      "Onboarding",
+      "Checklists"
+    ]
+  },
+  {
+    "objectID": "docs/checklists.html#the-basics",
+    "href": "docs/checklists.html#the-basics",
+    "title": "Onboarding Checklists",
+    "section": "",
+    "text": "Have fun and be safe\nReview your personal motivation, values, and professional goals",
     "crumbs": [
       "Onboarding",
       "Checklists"
@@ -114,8 +147,8 @@
     "objectID": "docs/checklists.html#coordinate",
     "href": "docs/checklists.html#coordinate",
     "title": "Onboarding Checklists",
-    "section": "",
-    "text": "This document is available as a pdf (see the right margin) so that you may download and check/highlight items as you complete them.\n\n\n\nReview Lab Values\nSet up your calendar (e.g., Outlook)\nSet up your weekly meeting schedule\nAccept Klaus’s invitation to our group’s lab meeting GitHub repo\nFind out who to ask for lab meeting invite\nFind out who to ask for Slack workspace invite\nFind out who to ask for webpage profile\nFind out who to talk to at Irving or Thayer for your ID card, office access, etc., if you don’t already know\nDiscuss research interests and potential projects\n\n\n\n\n\nSend photo, bio, contact, socials to web manager\n\nCheck out existing profiles for examples\n\nJoin group Slack and browse/join channels\n Thayer Computing for access to Kasper and jumbo/keller-lab/ and CC Klaus (he will tell computing gurus it is ok to add you)\n\n\n\n\n\nCheck out the lab meeting repo and add yourself to the next presentation block\n\nNote: Depending on your experience level, you may find it helpful to consult some examples.\n\nPrepare a 5 minute max presentation to introduce yourself to the group\n\nReview our presentation guidelines\n\n\n\n\n\nNow that you have followed these steps, your tasks in the group will become more organic and unique to your chosen path. There is some reading material we strongly recommend for all lab members (and Klaus may assign some), but you can otherwise go through the reading list as best suits your early exploration and planning stages. Otherwise, work through the tutorials in the Guide and find projects to reproduce!",
+    "section": "Coordinate with Klaus",
+    "text": "Coordinate with Klaus\nThis document is available as a pdf (see the right margin) so that you may download and check/highlight items as you complete them.\n\nBefore first meeting\n\nReview Lab Values\nSet up your calendar (e.g., Outlook)\n\nBlock out working and lunch hours\nLeave room for lab meetings, journal club, etc.,\nSet up your weekly meeting schedule with Klaus\n\nAccept Klaus’s invitation to our group’s lab meeting GitHub repo\nMake sure you have access to the group’s shared-folders directory on Google Drive\nFind out who to ask for lab meeting invite\nFind out who to ask for Slack workspace invite\nFind out who to ask for webpage profile\nFind out who to talk to at Irving or Thayer for your ID card, office access, etc., if you don’t already know\n\nThis is a good start\n\nGet situated in your office space\n\nGet equipment (currently Siqi will help with this)\nThayer IT can help set up your laptop\n\nIntroduce yourself to the staff that help make our group successful\n\nCate Albright\nJentry Campbell\nIrving Staff (e.g., Molly Dunn)\n\nDiscuss research interests and potential projects\n\n\n\nAfter first meeting\n\nSend photo, bio, contact, socials to web manager\n\nCheck out existing profiles for examples\n\nJoin group Slack and browse/join channels\n Thayer Computing for access to Kasper and jumbo/keller-lab/ and CC Klaus (he will tell computing gurus it is ok to add you)\nWork through required trainings\n\nDartmouth will have some for you\nYou may want to do human subjects training\nGet driving approval\n\n\n\n\nBefore first lab meeting\n\nCheck out the lab meeting repo and add yourself to the next presentation block\n\nNote: Depending on your experience level, you may find it helpful to consult some examples.\n\nPrepare a 5 minute max presentation to introduce yourself to the group\n\nReview our presentation guidelines\n\n\n\n\nLosing your training wheels\nNow that you have followed these steps, your tasks in the group will become more organic and unique to your chosen path. There is some reading material we strongly recommend for all lab members (and Klaus may assign some), but you can otherwise go through the reading list as best suits your early exploration and planning stages. Otherwise, work through the tutorials in the Guide and find projects to reproduce!",
     "crumbs": [
       "Onboarding",
       "Checklists"
@@ -126,7 +159,7 @@
     "href": "docs/checklists.html#setup",
     "title": "Onboarding Checklists",
     "section": "Set up work environment",
-    "text": "Set up work environment\nIf you work from a Dartmouth laptop, it will come equipped with a lot of helpful software and functionality. If not, you may have to contribute to the manual to offer guidance for setting up software, tools, etc., Either way, there are still set up steps you will have to follow, such as:\n\n\n\n\n\n\n\n\nNote\n\n\n\nIt would be great to have guide entries about selecting between various reference managers, and setting up our coding environments!\n\n\n\nChoose a reference manager (e.g., Zotero or Paperpile)\n\nMany of us use Paperpile because of its Chrome plugin and integration into Google Docs, but Zotero might play better with collaborators and other workflows\n\nSet up a GitHub account if you don’t have one already\nConfigure your GitHub with SSH\nSet up your coding environment\n\nMany of us use VSCode for our IDE. You can SSH onto Kasper or work locally through the same interface.\n\nDartmouth also offers FastX.\nOr, you can run a Jupyter Notebook on Kasper or a HPC node. See here.\n\n\nWhile this is an incomplete list, it will hopefully be enough to get you going for the reading list and the guide",
+    "text": "Set up work environment\nIf you work from a Dartmouth laptop, it will come equipped with a lot of helpful software and functionality. If not, you may have to contribute to the manual to offer guidance for setting up software, tools, etc., Either way, there are still set up steps you will have to follow, such as:\n\n\n\n\n\n\n\n\nNote\n\n\n\nIt would be great to have guide entries about selecting between various reference managers, and setting up our coding environments!\n\n\n\nChoose a reference manager (e.g., Zotero or Paperpile)\n\nMany of us use Paperpile because of its Chrome plugin and integration into Google Docs, but Zotero might play better with collaborators and other workflows\n\nSet up a GitHub account if you don’t have one already\nConfigure your GitHub with SSH\nSet up your coding environment\n\nMany of us use VSCode for our IDE. You can SSH onto Kasper or work locally through the same interface.\n\nDartmouth also offers FastX.\nOr, you can run a Jupyter Notebook on Kasper or a HPC node. See here.\n\nSet up online profiles\n\nResearchgate\nGoogle scholar\n\nSet up a Google Drive for collaboration\n\nYou can set up a shared drive or share specific folders\n\nInstall software that you need for your work. For example, many of us use mamba for package management\n\nWhile this is an incomplete list, it will hopefully be enough to get you going for the reading list and the guide",
     "crumbs": [
       "Onboarding",
       "Checklists"
