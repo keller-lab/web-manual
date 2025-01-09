@@ -1,12 +1,54 @@
 ---
 title: "Reading List"
-format: 
-  html: default
 ---
 
-::: {.callout-warning}
-This page is under construction! The content here is currently for planning purposes.
-:::
+## Strongly Recommended Reading
 
-* Strongly Recommended Reading
-* Print a bibliography for various collections of articles (or just paste citations if readily available - maybe bib in the future)
+* Applegate, P. J., & Keller, K. (Eds.). (2016). Risk analysis in the Earth Sciences: A Lab manual. 2nd edition. Leanpub. Retrieved from https://leanpub.com/raes
+* Baron, N. (2010). Escape from the ivory tower: a guide to making your science matter (1st ed.). Island Press.
+* Garner, G. G., & Keller, K. (2018). Using direct policy search to identify robust strategies in adapting to uncertain sea-level rise and storm surge. Environmental Modelling & Software, 107, 96–104. https://doi.org/10.1016/j.envsoft.2018.05.006
+* Herman Jonathan D., Reed Patrick M., Zeff Harrison B., & Characklis Gregory W. (2015). How Should Robustness Be Defined for Water Systems Planning under Change? Journal of Water Resources Planning and Management, 141(10), 04015012. https://doi.org/10.1061/(ASCE)WR.1943-5452.0000509 
+* Huang, Xinyuan, Vivek Srikrishnan, Jonathan Lamontagne, Klaus Keller, and Wei Peng. “Effects of Global Climate Mitigation on Regional Air Quality and Health.” Nature Sustainability, May 18, 2023, 1–13. https://doi.org/10.1038/s41893-023-01133-5.
+* Keller, K., Helgeson, C., & Srikrishnan, V. (2021). Climate risk management. Annual Review of Earth and Planetary Sciences, 49, 95-116. https://doi.org/10.1146/annurev-earth-080320-055847
+* Marangoni, G., Lamontagne, J. R., Quinn, J. D., Reed, P. M., & Keller, K. (2021). Adaptive mitigation strategies hedge against extreme climate futures. Climatic Change, 166(3-4). https://doi.org/10.1007/s10584-021-03132-x 
+* Morgan, M. G., & Henrion, M. (1995). Uncertainty, a guide to dealing with uncertainty in quantitative policy analysis. Cambridge University Press.
+* Oprean, D., Spence, C., Simpson, M., Miller, R., Jr, Bansal, S., Keller, K., & Klippel, A. (2019). Human Interpretation of Trade-Off Diagrams in Multi-Objective Problems: Implications for Developing Interactive Decision Support Systems. In Proceedings of the 52nd Hawaii International Conference on System Sciences. Retrieved from https://scholarspace.manoa.hawaii.edu/handle/10125/59596
+* Quinn, J. D., Reed, P. M., & Keller, K. (2017). Direct policy search for robust multi-objective management of deeply uncertain socio-ecological tipping points. Environmental Modelling & Software, 92, 125–141. https://doi.org/10.1016/j.envsoft.2017.02.017
+* Reed, P. M., Hadjimichael, A., Malek, K., Karimi, T., Vernon, C. R., Srikrishnan, V., et al. (2022). Addressing Uncertainty in MultiSector Dynamics Research. https://immm-sfa.github.io/msd_uncertainty_ebook/
+* Reed, P. M., Hadjimichael, A., Moss, R. H., Brelsford, C., Burleyson, C. D., Cohen, S., et al. (2022). Multisector dynamics: Advancing the science of complex adaptive human-earth systems. Earth’s Future, 10(3). https://doi.org/10.1029/2021ef002621
+* Tebyanian, N., Wu, H., Iulo, L., & Keller, K. (2022). Uncertainty Considerations in Green Infrastructure Optimization: A Review. Journal of Digital Landscape Architecture: JoDLA, 2022(7), 549–560. https://doi.org/10.14627/537724052
+* Wong, T. E., & Keller, K. (2017). Deep Uncertainty Surrounding Coastal Flood Risk Projections: A Case Study for New Orleans. Earth’s Future, 5(10), 1015–1026. https://doi.org/10.1002/2017EF000607 
+* Zarekarizi, M., Srikrishnan, V., & Keller, K. (2020). Neglecting Uncertainties Biases House-Elevation Decisions to Manage Riverine Flood Risks. Nature Communications. https://doi.org/10.1038/s41467-020-19188-9
+
+## (MO)RDM Reading List
+You may want to prioritize the articles in [red]{style="color: red;"}.
+
+### Core/Concepts
+* [Ackoff, R. A. (1979). “The Future of Operational Research is Past.” The Journal of the Operational Research Society 30(2): 93-104.]{.red}
+* Churchman, C. W. (1967). “Wicked problems. Guest editorial.” Management Science 14(4): B141-B142.
+* [Lempert, R. J. (2019). Robust Decision Making (RDM). In V. A. W. J. Marchau, W. E. Walker, P. J. T. M. Bloemen, & S. W. Popper (Eds.), Decision Making under Deep Uncertainty: From Theory to Practice (pp. 23–51). Cham: Springer International Publishing. https://doi.org/10.1007/978-3-030-05252-2_2]{.red}
+* [Bankes, S. (1993). Exploratory modeling for policy analysis. Operations research, 41(3), 435-449. 75(4), 643–669. https://doi.org/10.2307/1884324]{.red} 
+* [Ellsberg, D. (1961). Risk, Ambiguity, and the Savage Axioms. The Quarterly Journal of Economics,]{.red}
+* Anderies, J. M., Rodriguez, A. A., Janssen, M. A., & Cifdaloz, O. (2007). Panaceas, uncertainty, and the robust control framework in sustainability science. Proceedings of the National Academy of Sciences of the United States of America, 104(39), 15194–15199. https://doi.org/10.1073/pnas.0702655104
+* [Herman, J. D., Reed, P. M., Zeff, H. B., & Characklis, G. W. (2015). How should robustness be defined for water systems planning under change?. Journal of Water Resources Planning and Management, 141(10), 04015012.]{.red} 
+* Kasprzyk, J. R., Nataraj, S., Reed, P. M., & Lempert, R. J. (2013). Many objective robust decision making for complex environmental systems undergoing change. Environmental Modelling & Software, 42, 55-71. 
+* McPhail, C., Maier, H. R., Kwakkel, J. H., Giuliani, M., Castelletti, A., & Westra, S. (2018). Robustness metrics: How are they calculated, when should they be used and why do they give different results?. Earth's Future, 6(2), 169-191. 
+* [Kwakkel Jan H., Walker Warren E., & Haasnoot Marjolijn. (2016). Coping with the Wickedness of Public Policy Problems: Approaches for Decision Making under Deep Uncertainty. Journal of Water Resources Planning and Management, 142(3), 01816001. https://doi.org/10.1061/(ASCE)WR.1943-5452.0000626]{.red}
+* [Rittel, H. W. J., & Webber, M. M. (1973). Dilemmas in a general theory of planning. Policy Sciences, 4(2), 155–169. https://doi.org/10.1007/bf01405730]{.red}
+* [Keller, K., Helgeson, C., & Srikrishnan, V. (2021). Climate risk management. Annual Review of Earth and Planetary Sciences, 49, 95-116.]{.red} 
+* [Woodruff, M. J., Reed, P. M., & Simpson, T. W. (2013). Many objective visual analytics: rethinking the design of complex engineered systems. Structural and Multidisciplinary Optimization, 48(1), 201–219. https://doi.org/10.1007/s00158-013-0891-z]{.red}
+
+### Techniques/Examples
+* Hadjimichael, A., & Gold, D. (2020). Rhodium: Python Library for Many-Objective Robust Decision Making and Exploratory Modeling. Journal of. Retrieved from https://openresearchsoftware.metajnl.com/articles/10.5334/jors.293/print/
+* [Kwakkel - Environmental Modelling & Software, J. H., & 2017. (2017). The Exploratory Modeling Workbench: An open source toolkit for exploratory modeling, scenario discovery, and (multi-objective) robust decision making. Elsevier Oceanography Series, 96, 239–250. https://doi.org/10.1016/j.envsoft.2017.06.054]{.red}
+* Hadka, D., & Reed, P. (2013). Borg: an auto-adaptive many-objective evolutionary computing framework. Evolutionary Computation, 21(2), 231–259. https://doi.org/10.1162/EVCO_a_00075
+* Garner, G. G., & Keller, K. (2018). Using direct policy search to identify robust strategies in adapting to uncertain sea-level rise and storm surge. Environmental Modelling & Software, 107, 96–104. https://doi.org/10.1016/j.envsoft.2018.05.006
+* Lempert, R. J., Schlesinger, M. E., & Bankes, S. C. (1996). When we don't know the costs or the benefits: Adaptive strategies for abating climate change. Climatic Change, 33(2), 235-274. 
+* Bertoni Federica, Giuliani Matteo, & Castelletti Andrea. (2020). Integrated Design of Dam Size and Operations via Reinforcement Learning. Journal of Water Resources Planning and Management, 146(4), 04020010. https://doi.org/10.1061/(ASCE)WR.1943-5452.0001182
+* Castelletti, A., Pianosi, F., & Restelli, M. (2013). A multiobjective reinforcement learning approach to water resources systems operation: Pareto frontier approximation in a single run. Water Resources Research, 49(6), 3476–3486. Retrieved from https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/wrcr.20295
+* [Marangoni, G., Lamontagne, J. R., Quinn, J. D., Reed, P. M., & Keller, K. (2021). Adaptive mitigation strategies hedge against extreme climate futures. Climatic Change, in review(3-4). https://doi.org/10.1007/s10584-021-03132-x]{.red}
+* [Quinn, J. D., Reed, P. M., & Keller, K. (2017). Direct policy search for robust multi-objective management of deeply uncertain socio-ecological tipping points. Environmental Modelling & Software, 92, 125–141. https://doi.org/10.1016/j.envsoft.2017.02.017]{.red}
+* Rosenstein, M. T., & Barto, A. G. (2001). Robot weightlifting by direct policy search. IJCAI: Proceedings of the Conference / Sponsored by the International Joint Conferences on Artificial Intelligence. Retrieved from http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.10.5890&rep=rep1&type=pdf
+* [Wong, T. E., & Keller, K. (2017). Deep Uncertainty Surrounding Coastal Flood Risk Projections: A Case Study for New Orleans. Earth’s Future, 5(10), 1015–1026. https://doi.org/10.1002/2017EF000607]{.red} 
+* Zaniolo, M., Giuliani, M., & Castelletti, A. (2021). Policy Representation Learning for multiobjective reservoir policy design with different objective dynamics. Water Resources Research. https://doi.org/10.1029/2020wr029329
+* [Zarekarizi, M., Srikrishnan, V., & Keller, K. (2020). Neglecting Uncertainties Biases House-Elevation Decisions to Manage Riverine Flood Risks. Nature Communications. https://doi.org/10.1038/s41467-020-19188-9]{.red}
