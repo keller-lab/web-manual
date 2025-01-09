@@ -5,6 +5,10 @@ format:
   pdf: default
 ---
 
+## The Basics
+- [ ] Have fun and be safe
+- [ ] Review your personal motivation, values, and professional goals
+
 ## Coordinate with Klaus{#coordinate}
 
 This document is available as a pdf (see the right margin) so that you may download and check/highlight items as you complete them. 
@@ -13,12 +17,23 @@ This document is available as a pdf (see the right margin) so that you may downl
 
 - [ ] Review [Lab Values](lab-values/index.qmd)
 - [ ] Set up your calendar (e.g., Outlook)
-- [ ] Set up your weekly meeting schedule
+  - Block out working and lunch hours
+  - Leave room for lab meetings, journal club, etc.,
+  - Set up your weekly meeting schedule with Klaus
 - [ ] Accept Klaus's invitation to our group's lab meeting GitHub repo
+- [ ] Make sure you have access to the group's shared-folders directory on Google Drive
 - [ ] Find out who to ask for lab meeting invite
 - [ ] Find out who to ask for Slack workspace invite
 - [ ] Find out who to ask for webpage profile
 - [ ] Find out who to talk to at Irving or Thayer for your ID card, office access, etc., if you don't already know
+  - [This](https://www.dartmouth.edu/finance/employee-services/other_services/dartcard/) is a good start
+- [ ] Get situated in your office space
+  - Get equipment (currently Siqi will help with this)
+  - Thayer IT can help set up your laptop
+- [ ] Introduce yourself to the staff that help make our group successful
+  - [Cate Albright](mailto:Cate.Albright@dartmouth.edu)
+  - [Jentry Campbell](https://www.library.dartmouth.edu/directory/f0069hv)
+  - Irving Staff (e.g., [Molly Dunn](https://irving.dartmouth.edu/people/molly-dunn))
 - [ ] Discuss research interests and potential projects
 
 ### After first meeting
@@ -26,6 +41,10 @@ This document is available as a pdf (see the right margin) so that you may downl
   - [ ] Check out existing [profiles](https://keller-lab.github.io/people.html) for examples
 - [ ] Join group Slack and browse/join channels
 - [ ] [{{< fa envelope title="Email" >}} Thayer Computing](mailto:computing@thayer.dartmouth.edu) for access to Kasper and `jumbo/keller-lab/` and CC Klaus (he will tell computing gurus it is ok to add you)
+- [ ] Work through required trainings
+  - Dartmouth will have some for you
+  - You may want to do [human subjects training](https://docs.google.com/document/d/1nky1Qc8IxAUwdbQy9rVxIj0GC15RtbtOZs2cL3YAU54/edit?tab=t.0)
+  - Get [driving approval](https://www.dartmouth.edu/transportation/driver_safety_program/approval_process/index.php)
 
 ### Before first lab meeting
 - [ ] Check out the lab meeting [repo](https://github.com/keller-lab/lab-meetings) and add yourself to the next presentation block
@@ -55,5 +74,11 @@ It would be great to have guide entries about selecting between various referenc
   - Many of us use VSCode for our IDE. You can SSH onto Kasper or work locally through the same interface.  
   - Dartmouth also offers [FastX](https://services.dartmouth.edu/TDClient/1806/Portal/KB/ArticleDet?ID=81595).
   - Or, you can run a Jupyter Notebook on Kasper or a HPC node. See [here](https://services.dartmouth.edu/TDClient/1806/Portal/KB/ArticleDet?ID=124517).
+- [ ] Set up online profiles
+  - [ ] Researchgate
+  - [ ] Google scholar
+- [ ] Set up a Google Drive for collaboration
+  - You can set up a shared drive or share specific folders
+- [ ] Install software that you need for your work. For example, many of us use [mamba](https://mamba.readthedocs.io/en/latest/) for package management
 
 While this is an incomplete list, it will hopefully be enough to get you going for the reading list and the guide <i class="fa-regular fa-face-grin-wide"></i>
