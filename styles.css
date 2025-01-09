@@ -61,7 +61,10 @@
     padding-bottom: 0.2rem;
 }
 
-
 .card .source-code {
     margin-top: 3px;
+}
+
+.red {
+    color: red;
 }
