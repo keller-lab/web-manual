@@ -27,8 +27,8 @@ You may want to prioritize the articles in [red]{style="color: red;"}.
 * [Ackoff, R. A. (1979). “The Future of Operational Research is Past.” The Journal of the Operational Research Society 30(2): 93-104.]{.red}
 * Churchman, C. W. (1967). “Wicked problems. Guest editorial.” Management Science 14(4): B141-B142.
 * [Lempert, R. J. (2019). Robust Decision Making (RDM). In V. A. W. J. Marchau, W. E. Walker, P. J. T. M. Bloemen, & S. W. Popper (Eds.), Decision Making under Deep Uncertainty: From Theory to Practice (pp. 23–51). Cham: Springer International Publishing. <https://doi.org/10.1007/978-3-030-05252-2_2>]{.red}
-* [Bankes, S. (1993). Exploratory modeling for policy analysis. Operations research, 41(3), 435-449. 75(4), 643–669. <https://doi.org/10.2307/1884324>]{.red} 
-* [Ellsberg, D. (1961). Risk, Ambiguity, and the Savage Axioms. The Quarterly Journal of Economics,]{.red}
+* [Bankes, Steve. “Exploratory Modeling for Policy Analysis.” Operations Research 41, no. 3 (June 1, 1993): 435–49. <https://doi.org/10.1287/opre.41.3.435>]{.red} 
+* [Ellsberg, Daniel. “Risk, Ambiguity, and the Savage Axioms.” The Quarterly Journal of Economics 75, no. 4 (November 1961): 643. https://doi.org/10.2307/1884324]{.red}
 * Anderies, J. M., Rodriguez, A. A., Janssen, M. A., & Cifdaloz, O. (2007). Panaceas, uncertainty, and the robust control framework in sustainability science. Proceedings of the National Academy of Sciences of the United States of America, 104(39), 15194–15199. <https://doi.org/10.1073/pnas.0702655104>
 * [Herman, J. D., Reed, P. M., Zeff, H. B., & Characklis, G. W. (2015). How should robustness be defined for water systems planning under change?. Journal of Water Resources Planning and Management, 141(10), 04015012.]{.red} 
 * Kasprzyk, J. R., Nataraj, S., Reed, P. M., & Lempert, R. J. (2013). Many objective robust decision making for complex environmental systems undergoing change. Environmental Modelling & Software, 42, 55-71. 
