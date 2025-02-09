@@ -55,13 +55,13 @@ website:
            - section: "Data Analysis"
              contents:
               - text: "Our Approach"
-                href: docs/analysis/overview.qmd
+                href: docs/analysis/our-approach.qmd
               - text: "Common GitHub Use Cases"
                 href: docs/analysis/lab-github.qmd
            - section: "Science Communication"
              contents: 
               - text: "Our Goals"
-                href: docs/sci-comm/overview.qmd
+                href: docs/sci-comm/our-goals.qmd
               - text: "Presentations"
                 href: docs/sci-comm/presentation-guidelines.qmd
            - section: "Learning Materials"

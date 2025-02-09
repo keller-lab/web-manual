@@ -80,7 +80,13 @@ You may want to prioritize the articles in [red]{style="color: red;"}.
 * Spiegelhalter, D. (2017). Risk and Uncertainty Communication. Annual Review of Statistics and Its Application. <https://doi.org/10.1146/annurev-statistics-010814-020148>
 
 
-## Other Lists:
+## Other Lists
+::: {.callout-tip}
+## Good Contribution Opportunity!
+
+These lists are saved on google docs that only lab members have access to. Porting these over to the manual is a great first contribution opportunity for lab members who want practice collaborating on GitHub and opening a pull request!
+:::
+
 
 * [Agent-Based Modeling](https://docs.google.com/document/d/1H12TrLbll-Jw0g3yVUUKXpDhGIIup2lCdIrPNJAklhg/edit?tab=t.0)
 * [Coastal Flood Hazards](https://docs.google.com/document/d/1tlX56928tP217Wi-Tfe8xE0yIt50RZsb_rSBoIXIqhM/edit?tab=t.0)
