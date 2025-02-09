@@ -235,15 +235,12 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#high-level-overview" id="toc-high-level-overview" class="nav-link active" data-scroll-target="#high-level-overview">High-level overview</a></li>
   <li><a href="#recommended-tutorials-and-resources" id="toc-recommended-tutorials-and-resources" class="nav-link" data-scroll-target="#recommended-tutorials-and-resources">Recommended Tutorials and Resources</a></li>
-  <li><a href="#lab-cookbook" id="toc-lab-cookbook" class="nav-link" data-scroll-target="#lab-cookbook">Lab Cookbook</a>
+  <li><a href="#github-for-puppies" id="toc-github-for-puppies" class="nav-link" data-scroll-target="#github-for-puppies">GitHub for Puppies</a>
   <ul class="collapse">
   <li><a href="#keep-track-of-lab-meetings" id="toc-keep-track-of-lab-meetings" class="nav-link" data-scroll-target="#keep-track-of-lab-meetings">Keep track of lab meetings</a></li>
   <li><a href="#contribute-to-the-webpage" id="toc-contribute-to-the-webpage" class="nav-link" data-scroll-target="#contribute-to-the-webpage">Contribute to the webpage</a></li>
   <li><a href="#contribute-to-this-manual" id="toc-contribute-to-this-manual" class="nav-link" data-scroll-target="#contribute-to-this-manual">Contribute to this manual</a></li>
-  <li><a href="#set-up-your-research-project" id="toc-set-up-your-research-project" class="nav-link" data-scroll-target="#set-up-your-research-project">Set up your research project</a></li>
-  <li><a href="#maintain-your-research-project" id="toc-maintain-your-research-project" class="nav-link" data-scroll-target="#maintain-your-research-project">Maintain your research project</a></li>
-  <li><a href="#set-up-a-software-package" id="toc-set-up-a-software-package" class="nav-link" data-scroll-target="#set-up-a-software-package">Set up a software package</a></li>
-  <li><a href="#maintain-a-software-package" id="toc-maintain-a-software-package" class="nav-link" data-scroll-target="#maintain-a-software-package">Maintain a software package</a></li>
+  <li><a href="#set-up-and-maintain-your-research-project" id="toc-set-up-and-maintain-your-research-project" class="nav-link" data-scroll-target="#set-up-and-maintain-your-research-project">Set up and maintain your research project</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/abpoll/web-manual/edit/main/docs/analysis/lab-github.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/abpoll/web-manual/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -292,29 +289,95 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://swcarpentry.github.io/git-novice/">Version Control with Git</a> course from Software Carpentry</li>
 </ul>
 </section>
-<section id="lab-cookbook" class="level2">
-<h2 class="anchored" data-anchor-id="lab-cookbook">Lab Cookbook</h2>
+<section id="github-for-puppies" class="level2">
+<h2 class="anchored" data-anchor-id="github-for-puppies">GitHub for Puppies</h2>
 <p>These code blocks and recommendations can be helpful for routine tasks, but may require knowledge and set-up that they don’t explicitly acknowledge. To use these recipes well, you should work through the recommended tutorials and resources above (or have commensurate knowledge).</p>
 <section id="keep-track-of-lab-meetings" class="level3">
 <h3 class="anchored" data-anchor-id="keep-track-of-lab-meetings">Keep track of lab meetings</h3>
+<p><a href="https://github.com/keller-lab/lab-meetings">This</a> is our lab meeting repo.</p>
+<p>The person responsible for organizing and leading lab meetings will:</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+We can organize this better!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We should probably have subdirectories on the <code>main</code> branch for each term and avoid the complicated branch structure we currently use.</p>
+</div>
+</div>
+<ul>
+<li>Once per term, create a new branch named for the term (e.g., winter25) and update the README with the meeting details and schedule.</li>
+<li>Once per term, update the <code>main</code> branch <code>README.md</code> to reflect the branch we are currently on.</li>
+<li>Every week, add a new subdirectory for the meeting of that week (e.g., <code>1-15/</code>) and add an <code>agenda.md</code> file. Include a link to the presenter’s slides if possible. Update the meeting schedule with a link to the week’s <code>agenda.md</code>.</li>
+</ul>
+<p>We only expect other lab members to view this repo.</p>
 </section>
 <section id="contribute-to-the-webpage" class="level3">
 <h3 class="anchored" data-anchor-id="contribute-to-the-webpage">Contribute to the webpage</h3>
+<p><a href="https://github.com/keller-lab/keller-lab.github.io">This</a> is our webpage repo.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+We may want to migrate to Quarto!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The main interactions with the webpage is to add/remove a member profile. Quarto could simplify this quite a bit, and synchronizing tech stacks for the manual and webpage could make it simpler for a wider range of contributions to each.</p>
+</div>
+</div>
+<p>The person reponsible for maintaining the webpage should follow, and add to, the <code>README.md</code> as appropriate for various tasks.</p>
+<p>Occassionally, other lab members may want to propose changes. You can always post an Issue to the repo. If you want to directly implement changes, the workflow for this is to:</p>
+<ul>
+<li>Clone the repo to your local machine</li>
+<li>Create a new branch named parsimoniously for the change you’d like to make. For example, when we added this web manual to the navigation bar at the top of the webpage, we did the following workflow after cloning:
+<ul>
+<li><code>git checkout -b web-manual</code></li>
+<li>made changes and tested locally</li>
+<li><code>git add .</code></li>
+<li><code>git commit -m add link to lab manual on web page resources</code></li>
+<li><code>git push -u origin web-manual</code></li>
+<li>On the web repo, open a PR with a detailed description and assign the task to Klaus and the person in charge of the webpage</li>
+</ul></li>
+</ul>
 </section>
 <section id="contribute-to-this-manual" class="level3">
 <h3 class="anchored" data-anchor-id="contribute-to-this-manual">Contribute to this manual</h3>
+<p><a href="https://github.com/keller-lab/web-manual">This</a> is the web manual repo.</p>
+<p>We need to define the workflow for contributing to it before we add more instructions here.</p>
 </section>
-<section id="set-up-your-research-project" class="level3">
-<h3 class="anchored" data-anchor-id="set-up-your-research-project">Set up your research project</h3>
-</section>
-<section id="maintain-your-research-project" class="level3">
-<h3 class="anchored" data-anchor-id="maintain-your-research-project">Maintain your research project</h3>
-</section>
-<section id="set-up-a-software-package" class="level3">
-<h3 class="anchored" data-anchor-id="set-up-a-software-package">Set up a software package</h3>
-</section>
-<section id="maintain-a-software-package" class="level3">
-<h3 class="anchored" data-anchor-id="maintain-a-software-package">Maintain a software package</h3>
+<section id="set-up-and-maintain-your-research-project" class="level3">
+<h3 class="anchored" data-anchor-id="set-up-and-maintain-your-research-project">Set up and maintain your research project</h3>
+<p>If this is your first project in the group, check out the <a href="https://immm-sfa.github.io/metarepo/">metarepo documentation</a> and start from the IM3 template. You should:</p>
+<ul>
+<li>Make keller-lab the owner</li>
+<li>Generally, set the repo to private while you are first beginning your work</li>
+<li>Clone the repo (ideally to both kasper and your local machine)</li>
+<li>Begin modifying the template to better meet your needs. For example:
+<ul>
+<li>We often add <code>data/</code> to our <code>.gitignore</code> because we like having this in our project directory</li>
+<li>Some of us prefer renaming <code>scripts/</code> to <code>workflow/</code> because we are special</li>
+<li>You may want to add other directories, <code>.yml</code> files, etc.,</li>
+</ul></li>
+</ul>
+<p>If you have your own project template (e.g., maybe you like <a href="https://cookiecutter-data-science.drivendata.org/">Cookiecutter Data Science</a>), please use your template!</p>
+<p>No matter how you initialize your project, please keep the following principles in mind:</p>
+<ul>
+<li><code>git add</code> and <code>git commit</code> often, and make sure your commit messages are informative (and make you feel more comfortable reverting, if necessary).</li>
+<li>Keep reproducibility in mind (e.g., use relative filepaths, update your README as you go, keep your kapser &amp; local machine repos up to date with each other and make sure you can run code on both machines, etc.,)</li>
+<li>In general, separate functions from analysis.
+<ul>
+<li>Study the <code>UNSAFE</code> directory structure (esp.&nbsp;the <code>pyproject.toml</code>) and see how we use it in the <code>examples/</code> directory. See <a href="https://github.com/abpoll/unsafe">here</a></li>
+<li>Use software packages you develop for various functions as submodules in your analysis-focused projects. For example, see <a href="https://github.com/abpoll/nsi_fit">here</a> - lab members can reach out to Adam for access if this repo is still private when they take a peek.</li>
+</ul></li>
+</ul>
+<p>Check out our <a href="../../docs/materials/reproduce-repos.html">example repositories</a> to see neat code directory structures. Reproduce these examples to see how the data gets structured for ideas on how to structure your unique project well.</p>
 
 
 </section>
