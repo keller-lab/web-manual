@@ -1,0 +1,48 @@
+repos:
+  - reference: "A.B. Pollack, S. Santamaria-Aguilar, P. Maduwantha, C. Helgeson, T. Wahl, K. Keller, Funding rules that promote equity in climate adaptation outcomes, Proc. Natl. Acad. Sci. U.S.A. 122 (2) e2418711121, https://doi.org/10.1073/pnas.2418711121 (2025)."
+    year: 2025
+    repo:
+      name: "j40_gc"
+      url: "https://github.com/abpoll/j40_gc/"
+    topics:
+      - equity
+      - environmental justice
+      - flood risk
+      - trade-offs
+      - climate adaptation
+      - resource allocation
+  - reference: "Rhodium-SWMM: An open-source tool for green infrastructure placement under deep uncertainty. https://doi.org/10.1016/j.envsoft.2023.105671"
+    year: 2023
+    repo:
+      name: "rhodium-swmm"
+      url: "https://github.com/KellerLab-Dartmouth/rhodium-swmm"
+    topics:
+      - flood risk
+      - green infrastructure
+      - deep uncertainty
+      - robustness
+      - rhodium
+      - mordm
+  - reference: "Doss‐Gollin, James, and Klaus Keller. A subjective Bayesian framework for synthesizing deep uncertainties in climate risk management. Earth's Future 11.1 (2023): e2022EF003044. https://doi.org/10.1029/2022EF003044"
+    year: 2023
+    repo:
+      name: "2022-elevation-robustness"
+      url: "https://github.com/KellerLab-Dartmouth/2022-elevation-robustness"
+    topics:
+      - flood risk
+      - deep uncertainty
+      - robustness
+      - mordm
+      - bayesian
+      - sea-level rise
+  - reference: "Pollack, A.B., Helgeson, C., Kousky, C. et al. Developing more useful equity measurements for flood-risk management. Nat Sustain 7, 823–832 (2024). https://doi.org/10.1038/s41893-024-01345-3"
+    year: 2024
+    repo:
+      name: "equity_meas"
+      url: "https://github.com/abpoll/equity_meas/tree/v1.1.0-pub"
+    topics:
+      - equity
+      - justice
+      - values
+      - flood risk
+      - literature review

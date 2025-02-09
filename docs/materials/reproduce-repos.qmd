@@ -1,11 +1,79 @@
 ---
 title: "Reproduce Our Projects!"
-format: 
-  html: default
+format:
+  html:
+    code-fold: true
+jupyter: python3
 ---
-
-::: {.callout-warning}
-This page is under construction! The content here is currently for planning purposes.
+::: {.callout-tip}
+## Good Contribution Opportunity!
+Add entries to `data/repos.yml`! Think of a better way to organize the GitHub repos and display the information so other lab members can choose the projects most relevant to their trajectory. Test out your changes and open a pull request!
 :::
 
-* Need to figure out the best way to organize the GitHub repos. Maybe there is a cool way to do this by category. For starters, I think a table that allows for sorting (e.g., by year) is good. 
+```{python}
+
+import pandas as pd
+import yaml
+from itables import init_notebook_mode, show
+import itables.options as opt
+from pathlib import Path
+import re
+
+# Initialize itables
+init_notebook_mode(all_interactive=True)
+
+# Function to make DOIs clickable
+def make_doi_clickable(text):
+    doi_pattern = r'(https://doi\.org/[^\s)]+)'
+    return re.sub(doi_pattern, r'<a href="\1" target="_blank">\1</a>', text)
+
+# Create relative path to repos file
+# Goes up two levels (../../) from current .qmd location to reach root
+repo_path = Path('../../data/repos.yml')
+
+# Load YAML data
+with open(repo_path, 'r') as f:
+    data = yaml.safe_load(f)
+
+# Convert to DataFrame
+df = pd.DataFrame(data['repos'])
+
+# Make DOIs clickable in reference column
+df['reference'] = df['reference'].apply(make_doi_clickable)
+
+# Format the repo column to include HTML links
+df['repo'] = df.apply(lambda x: f'<a href="{x["repo"]["url"]}" target="_blank">{x["repo"]["name"]}</a>', axis=1)
+
+# Join topics with semicolons
+df['topics'] = df['topics'].apply(lambda x: '; '.join(x))
+
+# Configure itables options
+opt.classes = ["display", "cell-border"]
+opt.columnDefs = [
+    {   # Reference column
+        "width": "50%", 
+        "targets": 0
+    },  
+    {   # Year column
+        "width": "5%", 
+        "targets": 1,
+        "className": "dt-left"
+    },   
+    {   # Repo column
+        "width": "15%", 
+        "targets": 2
+    },  
+    {   # Topics column
+        "width": "30%", 
+        "targets": 3
+    }   
+]
+opt.showIndex = False
+
+# By default, show newest to oldest
+sorted_df = df.sort_values('year', ascending=False)
+
+# Display the interactive table
+show(sorted_df)
+
+```
