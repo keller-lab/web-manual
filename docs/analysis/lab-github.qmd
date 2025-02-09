@@ -4,13 +4,45 @@ format:
   html: default
 ---
 
-::: {.callout-warning}
-This page is under construction! The content here is currently for planning purposes.
-:::
+## High-level overview
+We use GitHub for many tasks:
 
-* Many tutorials for general GitHub use cases
-* There are a few things we expect you to use GitHub (or other version control) for. We provide guidance and examples for those uses cases on GitHub:
-  - Contributing to our lab meetings GitHub
-  - Contributing to this manual
-  - Setting up a project; use j40_gc as example (plus see other guide on reproducible workflows) -> treat this as a kind of cookbook, not a complete tutorial
-  - Maintaining a package (use UNSAFE as an example); principles from setting up a project apply but a few differences
+* Conduct careful versional control on all projects (solo or collaborative)
+* Keep track of our lab meeting agendas and presentation order
+* Maintain the group webpage
+* Maintain this lab manual
+
+This is easier said than done! See below for some helpful resources and code. 
+
+## Recommended Tutorials and Resources
+Credit to James Doss-Gollin's [CEVE 421/521: Climate Risk Management Course at Rice University](https://ceve-421-521.github.io/resources.html) for this helpful curated list. 
+
+* [Git Basics](https://www.theodinproject.com/lessons/foundations-git-basics) from The Odin Project.
+* [Learn Git Branching](https://learngitbranching.js.org/): An interactive, visual tutorial to how git works.
+* [Version Control](https://missing.csail.mit.edu/2020/version-control/) from MIT's "CS: Your Missing Semester" course.
+* [Git and GitHub for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV): YouTube playlist covering the basics of git and GitHub.
+* [Version Control with Git](https://swcarpentry.github.io/git-novice/) course from Software Carpentry
+
+## Lab Cookbook
+These code blocks and recommendations can be helpful for routine tasks, but may require knowledge and set-up that they don't explicitly acknowledge. To use these recipes well, you should work through the recommended tutorials and resources above (or have commensurate knowledge). 
+
+### Keep track of lab meetings
+
+
+### Contribute to the webpage
+
+
+### Contribute to this manual
+
+
+### Set up your research project
+
+
+### Maintain your research project
+
+
+### Set up a software package
+
+
+### Maintain a software package
+

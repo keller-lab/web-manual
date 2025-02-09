@@ -6,6 +6,7 @@ format:
 
 ## Strongly Recommended Reading
 
+::: {.wrap-list}
 * Applegate, P. J., & Keller, K. (Eds.). (2016). Risk analysis in the Earth Sciences: A Lab manual. 2nd edition. Leanpub. Retrieved from <https://leanpub.com/raes>
 * Baron, N. (2010). Escape from the ivory tower: a guide to making your science matter (1st ed.). Island Press.
 * Garner, G. G., & Keller, K. (2018). Using direct policy search to identify robust strategies in adapting to uncertain sea-level rise and storm surge. Environmental Modelling & Software, 107, 96–104. <https://doi.org/10.1016/j.envsoft.2018.05.006>
@@ -21,11 +22,14 @@ format:
 * Tebyanian, N., Wu, H., Iulo, L., & Keller, K. (2022). Uncertainty Considerations in Green Infrastructure Optimization: A Review. Journal of Digital Landscape Architecture: JoDLA, 2022(7), 549–560. <https://doi.org/10.14627/537724052>
 * Wong, T. E., & Keller, K. (2017). Deep Uncertainty Surrounding Coastal Flood Risk Projections: A Case Study for New Orleans. Earth’s Future, 5(10), 1015–1026. <https://doi.org/10.1002/2017EF000607> 
 * Zarekarizi, M., Srikrishnan, V., & Keller, K. (2020). Neglecting Uncertainties Biases House-Elevation Decisions to Manage Riverine Flood Risks. Nature Communications. <https://doi.org/10.1038/s41467-020-19188-9>
+:::
 
 ## (MO)RDM Reading List
 You may want to prioritize the articles in [red]{style="color: red;"}.
 
 ### Core/Concepts
+
+::: {.wrap-list}
 * [Ackoff, R. A. (1979). “The Future of Operational Research is Past.” The Journal of the Operational Research Society 30(2): 93-104.]{.red}
 * Churchman, C. W. (1967). “Wicked problems. Guest editorial.” Management Science 14(4): B141-B142.
 * [Lempert, R. J. (2019). Robust Decision Making (RDM). In V. A. W. J. Marchau, W. E. Walker, P. J. T. M. Bloemen, & S. W. Popper (Eds.), Decision Making under Deep Uncertainty: From Theory to Practice (pp. 23–51). Cham: Springer International Publishing. <https://doi.org/10.1007/978-3-030-05252-2_2>]{.red}
@@ -39,8 +43,11 @@ You may want to prioritize the articles in [red]{style="color: red;"}.
 * [Rittel, H. W. J., & Webber, M. M. (1973). Dilemmas in a general theory of planning. Policy Sciences, 4(2), 155–169. <https://doi.org/10.1007/bf01405730>]{.red}
 * [Keller, K., Helgeson, C., & Srikrishnan, V. (2021). Climate risk management. Annual Review of Earth and Planetary Sciences, 49, 95-116.]{.red} 
 * [Woodruff, M. J., Reed, P. M., & Simpson, T. W. (2013). Many objective visual analytics: rethinking the design of complex engineered systems. Structural and Multidisciplinary Optimization, 48(1), 201–219. <https://doi.org/10.1007/s00158-013-0891-z>]{.red}
+:::
 
 ### Techniques/Examples
+
+::: {.wrap-list}
 * Hadjimichael, A., & Gold, D. (2020). Rhodium: Python Library for Many-Objective Robust Decision Making and Exploratory Modeling. Journal of. Retrieved from <https://openresearchsoftware.metajnl.com/articles/10.5334/jors.293/print/>
 * [Kwakkel - Environmental Modelling & Software, J. H., & 2017. (2017). The Exploratory Modeling Workbench: An open source toolkit for exploratory modeling, scenario discovery, and (multi-objective) robust decision making. Elsevier Oceanography Series, 96, 239–250. <https://doi.org/10.1016/j.envsoft.2017.06.054>]{.red}
 * Hadka, D., & Reed, P. (2013). Borg: an auto-adaptive many-objective evolutionary computing framework. Evolutionary Computation, 21(2), 231–259. <https://doi.org/10.1162/EVCO_a_00075>
@@ -54,8 +61,11 @@ You may want to prioritize the articles in [red]{style="color: red;"}.
 * [Wong, T. E., & Keller, K. (2017). Deep Uncertainty Surrounding Coastal Flood Risk Projections: A Case Study for New Orleans. Earth’s Future, 5(10), 1015–1026. <https://doi.org/10.1002/2017EF000607>]{.red} 
 * Zaniolo, M., Giuliani, M., & Castelletti, A. (2021). Policy Representation Learning for multiobjective reservoir policy design with different objective dynamics. Water Resources Research. <https://doi.org/10.1029/2020wr029329>
 * [Zarekarizi, M., Srikrishnan, V., & Keller, K. (2020). Neglecting Uncertainties Biases House-Elevation Decisions to Manage Riverine Flood Risks. Nature Communications. <https://doi.org/10.1038/s41467-020-19188-9>]{.red}
+:::
 
 ## Uncertainty and Risk Communication
+
+::: {.wrap-list}
 * van der Bles, A. M., van der Linden, S., Freeman, A. L. J., & Spiegelhalter, D. J. (2020). The effects of communicating uncertainty on public trust in facts and numbers. Proceedings of the National Academy of Sciences of the United States of America, 117(14), 7672–7683. <https://doi.org/10.1073/pnas.1913678117>
 * Budescu, D. V., Broomell, S., & Por, H.-H. (2009). Improving Communication of Uncertainty in the Reports of the Intergovernmental Panel on Climate Change. Psychological Science, 20(3), 299–308. <https://doi.org/10.1111/j.1467-9280.2009.02284.x>
 * Budescu, D. V., Por, H.-H., & Broomell, S. B. (2012). Effective communication of uncertainty in the IPCC reports. Climatic Change, 113(2), 181–200. <https://doi.org/10.1007/s10584-011-0330-3>
@@ -78,6 +88,7 @@ You may want to prioritize the articles in [red]{style="color: red;"}.
 * Lee, K. D., Torell, G. L., & Newman, S. (2021). A once-in-one-hundred-year event? A survey assessing deviation between perceived and actual understanding of flood risk terminology. Journal of Environmental Management, 277, 111400. <https://doi.org/10.1016/j.jenvman.2020.111400>
 * Otway, H., & Wynne, B. (1989). Risk Communication: Paradigm and Paradox. Risk Analysis: An Official Publication of the Society for Risk Analysis, 9(2), 141–145. <https://doi.org/10.1111/j.1539-6924.1989.tb01232.x>
 * Spiegelhalter, D. (2017). Risk and Uncertainty Communication. Annual Review of Statistics and Its Application. <https://doi.org/10.1146/annurev-statistics-010814-020148>
+:::
 
 
 ## Other Lists
