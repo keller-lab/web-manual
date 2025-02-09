@@ -1,78 +1,36 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to the Keller Group Lab Manual!",
-    "section": "",
-    "text": "Learn and Contribute!\n\n\n\nThis manual is always under construction. If you would like to fix any mistakes, request additional material, or modify content, please submit a new Issue on GitHub."
-  },
-  {
-    "objectID": "index.html#overview",
-    "href": "index.html#overview",
-    "title": "Welcome to the Keller Group Lab Manual!",
-    "section": "Overview",
-    "text": "Overview\nThe purpose of this manual is to help new members and collaborators build a shared base of foundational knowledge for the kind of work we do in the Keller Lab Group. This is a collaborative, living document build with Quarto and hosted with GitHub Pages.\nThis manual details lab procedures, policies, and expectations for research group members (and may be helpful for collaborators to consult). The manual contains three sections:\n\nLab Values outlines the expectations we have for each other and ourselves to ensure a functional, healthy, and productive lab group; it is not a marketplace for Labrador Retrievers.\nOnboarding is your first stop as a new lab member (and may be helpful for others) to get your working environment and workflows set up.\nGuide is the home of our (always growing!) lab resources, how-tos, and tips for building a strong knowedge foundation for the kind of work we do in the group."
-  },
-  {
-    "objectID": "index.html#credit",
-    "href": "index.html#credit",
-    "title": "Welcome to the Keller Group Lab Manual!",
-    "section": "Credit",
-    "text": "Credit\nThe organization and content of this lab manual borrows heavily from several documents:\n\nThe Quarto Website & GitHub Repository\nThe Srikrishnan Group at BEE Cornell Lab Manual\nThe Reed Group at Cornel CEE Lab Manual\nThe Julia Workshop for Data Science at ISMB, 2022\n\nA huge thank you to all of these sources for making their work open and instructive!\nWe also thank Adam Pollack for putting together the first draft of the lab manual, leading initial revisions, and coordinating group contributions to the manual. Adam acknowledges the use of several LLMs (e.g., Claude 3.5 Sonnet, GPT-4o, and Llama 3.2 11b) made available by Dartmouth."
-  },
-  {
     "objectID": "docs/analysis/our-approach.html",
     "href": "docs/analysis/our-approach.html",
     "title": "Our Approach to Data Analysis",
     "section": "",
-    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nSee if Klaus is ok with us publishing the analysis checklist doc\nCould organize the checklist doc with hyperlinks to other pages in the section"
+    "text": "We conduct data analysis for three interconnected goals. First, we want to mechanistically understand past changes in the Earty system. Second, we want to project plausible future changes in the Earty system. Finally, we want to use this information to design sustainable, scientifically sound, technologically feasible, economically efficient, and ethically defensible risk management strategies. Our data analysis draws from a wide range of disciplines including engineering, Earth sciences, economics, philosophy, decision science, and statistics.\nWe believe that for our analyses to be useful and used, they must be transparent, rigorous, interpretable, and reusable.\nThe checklist below — designed by Klaus Keller, James Doss-Gollin, and Vivek Srikrishnan — provides the countours of our workflows to achieve our analysis goals:\n\nSetting up the analysis\n\nLegal and ethical questions assessed\nClear question(s) defined\nLink to decision-making established\nPossible design errors discussed (types I, II, III, IV)\nLicense defined\nCopyright defined\nAuthors defined\n\nChoosing a methods portfolio\n\nBayesian vs Frequentist chosen\nAnalytical vs computational approach chosen\nData generating model defined\nLikelihood function defined\n(Implicit) prior (with correlations) defined\nRequired approximations defined\n(Likelihood function, model structure, uncertainties, …)\nAssumptions spelled out\nPositive controls (across key methods and assumptions) performed\nNegative control (across key methods and assumptions) performed\nExpected results (with time-stamp) documented\n\nPerforming the analysis\n\nConvergence tested (if using numerical methods)\nAssumptions tested (e.g., residuals consistent with likelihood function)\nPrior prediction checks passed\nPosterior predictive checks passed\nSize and effects of (deep uncertainties / forking paths) characterized\n\nDocumenting the analysis\n\nAuthors named and reachable\nEnvironment variables documented\nAssumptions and robustness discussed\nCode reviewed for logic and consistency with documentation\nFigures publication ready\nDocumentation accessible to intended / target audience(s)\nAll sources cited\nNon-author contributors acknowledged\nFunding acknowledged\nConflict of interest declared\nMaterials uploaded to repository"
   },
   {
-    "objectID": "docs/lab-values/index.html",
-    "href": "docs/lab-values/index.html",
-    "title": "Lab Values",
+    "objectID": "docs/analysis/our-approach.html#overview",
+    "href": "docs/analysis/our-approach.html#overview",
+    "title": "Our Approach to Data Analysis",
     "section": "",
-    "text": "Figure 1: Sorry, Klaus, this is not about doggos. Credit: https://www.pexels.com/photo/photo-of-dog-laying-on-grass-3039079/\n\n\n\nOur group holds the following core values (in no particular order):\n\nTransparency: We share our research process, code, data, and limitations openly. We aim to be explicit about the values-laden nature of our work. We push ourselves to communicate honestly and clearly.\nAccessibility: We aim to make our research understandable and available to both academic and public audiences. We design our shared workspaces to accommodate different needs of group members and foster an open environment in which members can confidently request accommodations.\nInclusivity: We believe the healthiest lab environment and best science happens when people with different viewpoints and experiences work together. We actively foster such an environment and aim to make the Keller Group a place where all members feel like they can completely be themselves.\nCuriosity: We crave a lab environment filled with creative ideas, questions, open exchange, and boundary pushing.\nWork-life balance: We understand that research is just one part of who we are. We maintain clear boundaries between work and personal time, and support each other in pursuing interests and commitments outside the lab.\nContributing to real-world problems: Our research is motivated by, and reponsive to, pressing societal challenges. We wish they weren’t so hard and consequential, but we love thinking about wicked problems! We strive to make meaningful impacts beyond academia. This often calls for a transdisciplinary, collaborative, and integrative approach that we all enjoy.\nExcellence: We strive for excellence in all our activities. For example, we want the paper we’re working on to be our best and we treat every talk like a job talk. We are careful, rigorous, and polished. In the words of John Wooden, “if you don’t have time to do it right, when will you have time to do it over?”"
+    "text": "We conduct data analysis for three interconnected goals. First, we want to mechanistically understand past changes in the Earty system. Second, we want to project plausible future changes in the Earty system. Finally, we want to use this information to design sustainable, scientifically sound, technologically feasible, economically efficient, and ethically defensible risk management strategies. Our data analysis draws from a wide range of disciplines including engineering, Earth sciences, economics, philosophy, decision science, and statistics.\nWe believe that for our analyses to be useful and used, they must be transparent, rigorous, interpretable, and reusable.\nThe checklist below — designed by Klaus Keller, James Doss-Gollin, and Vivek Srikrishnan — provides the countours of our workflows to achieve our analysis goals:\n\nSetting up the analysis\n\nLegal and ethical questions assessed\nClear question(s) defined\nLink to decision-making established\nPossible design errors discussed (types I, II, III, IV)\nLicense defined\nCopyright defined\nAuthors defined\n\nChoosing a methods portfolio\n\nBayesian vs Frequentist chosen\nAnalytical vs computational approach chosen\nData generating model defined\nLikelihood function defined\n(Implicit) prior (with correlations) defined\nRequired approximations defined\n(Likelihood function, model structure, uncertainties, …)\nAssumptions spelled out\nPositive controls (across key methods and assumptions) performed\nNegative control (across key methods and assumptions) performed\nExpected results (with time-stamp) documented\n\nPerforming the analysis\n\nConvergence tested (if using numerical methods)\nAssumptions tested (e.g., residuals consistent with likelihood function)\nPrior prediction checks passed\nPosterior predictive checks passed\nSize and effects of (deep uncertainties / forking paths) characterized\n\nDocumenting the analysis\n\nAuthors named and reachable\nEnvironment variables documented\nAssumptions and robustness discussed\nCode reviewed for logic and consistency with documentation\nFigures publication ready\nDocumentation accessible to intended / target audience(s)\nAll sources cited\nNon-author contributors acknowledged\nFunding acknowledged\nConflict of interest declared\nMaterials uploaded to repository"
   },
   {
-    "objectID": "docs/resources.html",
-    "href": "docs/resources.html",
-    "title": "Additional Resources",
+    "objectID": "docs/analysis/our-approach.html#motivating-references",
+    "href": "docs/analysis/our-approach.html#motivating-references",
+    "title": "Our Approach to Data Analysis",
+    "section": "Motivating References",
+    "text": "Motivating References\n\nDoss-Gollin, J., & Keller, K. (2022). A subjective Bayesian framework for synthesizing deep uncertainties in climate risk management. Earth’s Future. https://doi.org/10.1029/2022ef003044\nGelman, A., Vehtari, A., Simpson, D., Margossian, C. C., Carpenter, B., Yao, Y., et al. (2020, November 3). Bayesian Workflow. arXiv [stat.ME]. Retrieved from http://arxiv.org/abs/2011.01808\nPollack, A., Auermuller, L., Burleyson, C., Campbell, J. E., Condon, M., Cooper, C., et al. (2023, December). Investing in open and FAIR practices for more usable and equitable climate-risk research. Preprint. Retrieved from http://dx.doi.org/10.31219/osf.io/29nhv"
+  },
+  {
+    "objectID": "docs/sci-comm/presentation-guidelines.html",
+    "href": "docs/sci-comm/presentation-guidelines.html",
+    "title": "Presentation Guidelines",
     "section": "",
-    "text": "There are a number of resources you should familiarize yourself with as a part of your onboarding. It may also be helpful to revisit this list from time to time after you settle in. Poke around and see what is useful to adopt in your workflows.",
+    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nGeneral principles\nChecklist\nExamples/Gallery",
     "crumbs": [
-      "Onboarding",
-      "Resources"
+      "Guide",
+      "Science Communication",
+      "Presentations"
     ]
-  },
-  {
-    "objectID": "docs/resources.html#resources-for-research",
-    "href": "docs/resources.html#resources-for-research",
-    "title": "Additional Resources",
-    "section": "Resources for Research",
-    "text": "Resources for Research\n\nDartmouth Libraries\n\nDefinitely check out the links connected to Data Services.\nThere are nice workshop series for learning the fundamentals of topics like python, LaTeX, GitHub, etc., Check them out and contribute your knowledge to the manual!\n\nThayer School Computing Services Knowledge Base.\n\nNot extensive but several articles will likely become a key part of your workflows\n\nAI Tools repository.\n\nWe are very lucky to have access to a number of AI tools, especially the Dartmouth Chat app that supports commercial and open-source models for all Dartmouth members.",
-    "crumbs": [
-      "Onboarding",
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "docs/resources.html#resources-for-life",
-    "href": "docs/resources.html#resources-for-life",
-    "title": "Additional Resources",
-    "section": "Resources for life",
-    "text": "Resources for life\n\nEnjoy the upper valley!!\n\nExplore\nConnect to existing communities\n\nHousing in the upper valley\n\nRentals for grad students and postdocs\nCraigslist sometimes has good finds\n\nGood Facebook marketplace for furniture!\nTake the bus if you can",
-    "crumbs": [
-      "Onboarding",
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "docs/sci-comm/our-goals.html",
-    "href": "docs/sci-comm/our-goals.html",
-    "title": "Our Science Communication Goals",
-    "section": "",
-    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\nThe idea of this page is to lay out why we care about science communication and providing context about the subsequent guides on being a good communicator for mediums such as presentations, papers, paper contracts, etc., Our goals might follow the message box format -&gt; clear issue, audience, problem statement, so what, etc., Could change this from “goals” to “approach” as well."
   },
   {
     "objectID": "docs/materials/reading-list.html",
@@ -83,7 +41,7 @@
     "crumbs": [
       "Guide",
       "Learning Materials",
-      "Reading List"
+      "Reading Lists"
     ]
   },
   {
@@ -95,7 +53,7 @@
     "crumbs": [
       "Guide",
       "Learning Materials",
-      "Reading List"
+      "Reading Lists"
     ]
   },
   {
@@ -103,46 +61,35 @@
     "href": "docs/materials/reading-list.html#mordm-reading-list",
     "title": "Reading List",
     "section": "(MO)RDM Reading List",
-    "text": "(MO)RDM Reading List\nYou may want to prioritize the articles in red.\n\nCore/Concepts\n\nAckoff, R. A. (1979). “The Future of Operational Research is Past.” The Journal of the Operational Research Society 30(2): 93-104.\nChurchman, C. W. (1967). “Wicked problems. Guest editorial.” Management Science 14(4): B141-B142.\nLempert, R. J. (2019). Robust Decision Making (RDM). In V. A. W. J. Marchau, W. E. Walker, P. J. T. M. Bloemen, & S. W. Popper (Eds.), Decision Making under Deep Uncertainty: From Theory to Practice (pp. 23–51). Cham: Springer International Publishing. https://doi.org/10.1007/978-3-030-05252-2_2\nBankes, Steve. “Exploratory Modeling for Policy Analysis.” Operations Research 41, no. 3 (June 1, 1993): 435–49. https://doi.org/10.1287/opre.41.3.435\nEllsberg, Daniel. “Risk, Ambiguity, and the Savage Axioms.” The Quarterly Journal of Economics 75, no. 4 (November 1961): 643. https://doi.org/10.2307/1884324\nAnderies, J. M., Rodriguez, A. A., Janssen, M. A., & Cifdaloz, O. (2007). Panaceas, uncertainty, and the robust control framework in sustainability science. Proceedings of the National Academy of Sciences of the United States of America, 104(39), 15194–15199. https://doi.org/10.1073/pnas.0702655104\nHerman, J. D., Reed, P. M., Zeff, H. B., & Characklis, G. W. (2015). How should robustness be defined for water systems planning under change?. Journal of Water Resources Planning and Management, 141(10), 04015012.\nKasprzyk, J. R., Nataraj, S., Reed, P. M., & Lempert, R. J. (2013). Many objective robust decision making for complex environmental systems undergoing change. Environmental Modelling & Software, 42, 55-71.\nMcPhail, C., Maier, H. R., Kwakkel, J. H., Giuliani, M., Castelletti, A., & Westra, S. (2018). Robustness metrics: How are they calculated, when should they be used and why do they give different results?. Earth’s Future, 6(2), 169-191.\nKwakkel Jan H., Walker Warren E., & Haasnoot Marjolijn. (2016). Coping with the Wickedness of Public Policy Problems: Approaches for Decision Making under Deep Uncertainty. Journal of Water Resources Planning and Management, 142(3), 01816001. https://doi.org/10.1061/(ASCE)WR.1943-5452.0000626\nRittel, H. W. J., & Webber, M. M. (1973). Dilemmas in a general theory of planning. Policy Sciences, 4(2), 155–169. https://doi.org/10.1007/bf01405730\nKeller, K., Helgeson, C., & Srikrishnan, V. (2021). Climate risk management. Annual Review of Earth and Planetary Sciences, 49, 95-116.\nWoodruff, M. J., Reed, P. M., & Simpson, T. W. (2013). Many objective visual analytics: rethinking the design of complex engineered systems. Structural and Multidisciplinary Optimization, 48(1), 201–219. https://doi.org/10.1007/s00158-013-0891-z\n\n\n\nTechniques/Examples\n\nHadjimichael, A., & Gold, D. (2020). Rhodium: Python Library for Many-Objective Robust Decision Making and Exploratory Modeling. Journal of. Retrieved from https://openresearchsoftware.metajnl.com/articles/10.5334/jors.293/print/\nKwakkel - Environmental Modelling & Software, J. H., & 2017. (2017). The Exploratory Modeling Workbench: An open source toolkit for exploratory modeling, scenario discovery, and (multi-objective) robust decision making. Elsevier Oceanography Series, 96, 239–250. https://doi.org/10.1016/j.envsoft.2017.06.054\nHadka, D., & Reed, P. (2013). Borg: an auto-adaptive many-objective evolutionary computing framework. Evolutionary Computation, 21(2), 231–259. https://doi.org/10.1162/EVCO_a_00075\nGarner, G. G., & Keller, K. (2018). Using direct policy search to identify robust strategies in adapting to uncertain sea-level rise and storm surge. Environmental Modelling & Software, 107, 96–104. https://doi.org/10.1016/j.envsoft.2018.05.006\nLempert, R. J., Schlesinger, M. E., & Bankes, S. C. (1996). When we don’t know the costs or the benefits: Adaptive strategies for abating climate change. Climatic Change, 33(2), 235-274.\nBertoni Federica, Giuliani Matteo, & Castelletti Andrea. (2020). Integrated Design of Dam Size and Operations via Reinforcement Learning. Journal of Water Resources Planning and Management, 146(4), 04020010. https://doi.org/10.1061/(ASCE)WR.1943-5452.0001182\nCastelletti, A., Pianosi, F., & Restelli, M. (2013). A multiobjective reinforcement learning approach to water resources systems operation: Pareto frontier approximation in a single run. Water Resources Research, 49(6), 3476–3486. Retrieved from https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/wrcr.20295\nMarangoni, G., Lamontagne, J. R., Quinn, J. D., Reed, P. M., & Keller, K. (2021). Adaptive mitigation strategies hedge against extreme climate futures. Climatic Change, in review(3-4). https://doi.org/10.1007/s10584-021-03132-x\nQuinn, J. D., Reed, P. M., & Keller, K. (2017). Direct policy search for robust multi-objective management of deeply uncertain socio-ecological tipping points. Environmental Modelling & Software, 92, 125–141. https://doi.org/10.1016/j.envsoft.2017.02.017\nRosenstein, M. T., & Barto, A. G. (2001). Robot weightlifting by direct policy search. IJCAI: Proceedings of the Conference / Sponsored by the International Joint Conferences on Artificial Intelligence. Retrieved from http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.10.5890&rep=rep1&type=pdf\nWong, T. E., & Keller, K. (2017). Deep Uncertainty Surrounding Coastal Flood Risk Projections: A Case Study for New Orleans. Earth’s Future, 5(10), 1015–1026. https://doi.org/10.1002/2017EF000607\nZaniolo, M., Giuliani, M., & Castelletti, A. (2021). Policy Representation Learning for multiobjective reservoir policy design with different objective dynamics. Water Resources Research. https://doi.org/10.1029/2020wr029329\nZarekarizi, M., Srikrishnan, V., & Keller, K. (2020). Neglecting Uncertainties Biases House-Elevation Decisions to Manage Riverine Flood Risks. Nature Communications. https://doi.org/10.1038/s41467-020-19188-9\n\nOther lists: https://docs.google.com/document/d/1H12TrLbll-Jw0g3yVUUKXpDhGIIup2lCdIrPNJAklhg/edit?tab=t.0 https://docs.google.com/document/d/1tlX56928tP217Wi-Tfe8xE0yIt50RZsb_rSBoIXIqhM/edit?tab=t.0 https://docs.google.com/document/d/1B_WBSmKl1f4B2ANr4xwFpy4C681zzu_zfsmoldeEu88/edit?tab=t.0 https://docs.google.com/document/d/1ToLuB4LeA_48wfBoceTBNR4QfpAqYae7esLhxlBB39Y/edit?tab=t.0 https://docs.google.com/document/d/1264tmEowncAgUNhxNbKKCBT_ncXOmE8EWFRLpZFxulQ/edit?tab=t.0 https://docs.google.com/document/d/1DtVt3DEpMc5Wl_FuRTow1Utn2BdyhYjz_piKfz-i-Kc/edit?tab=t.0 https://docs.google.com/document/d/12bz_nb669lFCxuo5cTSH_p-8XNOo-TicqQGFVzfInFU/edit?tab=t.0",
+    "text": "(MO)RDM Reading List\nYou may want to prioritize the articles in red.\n\nCore/Concepts\n\nAckoff, R. A. (1979). “The Future of Operational Research is Past.” The Journal of the Operational Research Society 30(2): 93-104.\nChurchman, C. W. (1967). “Wicked problems. Guest editorial.” Management Science 14(4): B141-B142.\nLempert, R. J. (2019). Robust Decision Making (RDM). In V. A. W. J. Marchau, W. E. Walker, P. J. T. M. Bloemen, & S. W. Popper (Eds.), Decision Making under Deep Uncertainty: From Theory to Practice (pp. 23–51). Cham: Springer International Publishing. https://doi.org/10.1007/978-3-030-05252-2_2\nBankes, Steve. “Exploratory Modeling for Policy Analysis.” Operations Research 41, no. 3 (June 1, 1993): 435–49. https://doi.org/10.1287/opre.41.3.435\nEllsberg, Daniel. “Risk, Ambiguity, and the Savage Axioms.” The Quarterly Journal of Economics 75, no. 4 (November 1961): 643. https://doi.org/10.2307/1884324\nAnderies, J. M., Rodriguez, A. A., Janssen, M. A., & Cifdaloz, O. (2007). Panaceas, uncertainty, and the robust control framework in sustainability science. Proceedings of the National Academy of Sciences of the United States of America, 104(39), 15194–15199. https://doi.org/10.1073/pnas.0702655104\nHerman, J. D., Reed, P. M., Zeff, H. B., & Characklis, G. W. (2015). How should robustness be defined for water systems planning under change?. Journal of Water Resources Planning and Management, 141(10), 04015012.\nKasprzyk, J. R., Nataraj, S., Reed, P. M., & Lempert, R. J. (2013). Many objective robust decision making for complex environmental systems undergoing change. Environmental Modelling & Software, 42, 55-71.\nMcPhail, C., Maier, H. R., Kwakkel, J. H., Giuliani, M., Castelletti, A., & Westra, S. (2018). Robustness metrics: How are they calculated, when should they be used and why do they give different results?. Earth’s Future, 6(2), 169-191.\nKwakkel Jan H., Walker Warren E., & Haasnoot Marjolijn. (2016). Coping with the Wickedness of Public Policy Problems: Approaches for Decision Making under Deep Uncertainty. Journal of Water Resources Planning and Management, 142(3), 01816001. https://doi.org/10.1061/(ASCE)WR.1943-5452.0000626\nRittel, H. W. J., & Webber, M. M. (1973). Dilemmas in a general theory of planning. Policy Sciences, 4(2), 155–169. https://doi.org/10.1007/bf01405730\nKeller, K., Helgeson, C., & Srikrishnan, V. (2021). Climate risk management. Annual Review of Earth and Planetary Sciences, 49, 95-116.\nWoodruff, M. J., Reed, P. M., & Simpson, T. W. (2013). Many objective visual analytics: rethinking the design of complex engineered systems. Structural and Multidisciplinary Optimization, 48(1), 201–219. https://doi.org/10.1007/s00158-013-0891-z\n\n\n\nTechniques/Examples\n\nHadjimichael, A., & Gold, D. (2020). Rhodium: Python Library for Many-Objective Robust Decision Making and Exploratory Modeling. Journal of. Retrieved from https://openresearchsoftware.metajnl.com/articles/10.5334/jors.293/print/\nKwakkel - Environmental Modelling & Software, J. H., & 2017. (2017). The Exploratory Modeling Workbench: An open source toolkit for exploratory modeling, scenario discovery, and (multi-objective) robust decision making. Elsevier Oceanography Series, 96, 239–250. https://doi.org/10.1016/j.envsoft.2017.06.054\nHadka, D., & Reed, P. (2013). Borg: an auto-adaptive many-objective evolutionary computing framework. Evolutionary Computation, 21(2), 231–259. https://doi.org/10.1162/EVCO_a_00075\nGarner, G. G., & Keller, K. (2018). Using direct policy search to identify robust strategies in adapting to uncertain sea-level rise and storm surge. Environmental Modelling & Software, 107, 96–104. https://doi.org/10.1016/j.envsoft.2018.05.006\nLempert, R. J., Schlesinger, M. E., & Bankes, S. C. (1996). When we don’t know the costs or the benefits: Adaptive strategies for abating climate change. Climatic Change, 33(2), 235-274.\nBertoni Federica, Giuliani Matteo, & Castelletti Andrea. (2020). Integrated Design of Dam Size and Operations via Reinforcement Learning. Journal of Water Resources Planning and Management, 146(4), 04020010. https://doi.org/10.1061/(ASCE)WR.1943-5452.0001182\nCastelletti, A., Pianosi, F., & Restelli, M. (2013). A multiobjective reinforcement learning approach to water resources systems operation: Pareto frontier approximation in a single run. Water Resources Research, 49(6), 3476–3486. Retrieved from https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/wrcr.20295\nMarangoni, G., Lamontagne, J. R., Quinn, J. D., Reed, P. M., & Keller, K. (2021). Adaptive mitigation strategies hedge against extreme climate futures. Climatic Change, in review(3-4). https://doi.org/10.1007/s10584-021-03132-x\nQuinn, J. D., Reed, P. M., & Keller, K. (2017). Direct policy search for robust multi-objective management of deeply uncertain socio-ecological tipping points. Environmental Modelling & Software, 92, 125–141. https://doi.org/10.1016/j.envsoft.2017.02.017\nRosenstein, M. T., & Barto, A. G. (2001). Robot weightlifting by direct policy search. IJCAI: Proceedings of the Conference / Sponsored by the International Joint Conferences on Artificial Intelligence. Retrieved from http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.10.5890&rep=rep1&type=pdf\nWong, T. E., & Keller, K. (2017). Deep Uncertainty Surrounding Coastal Flood Risk Projections: A Case Study for New Orleans. Earth’s Future, 5(10), 1015–1026. https://doi.org/10.1002/2017EF000607\nZaniolo, M., Giuliani, M., & Castelletti, A. (2021). Policy Representation Learning for multiobjective reservoir policy design with different objective dynamics. Water Resources Research. https://doi.org/10.1029/2020wr029329\nZarekarizi, M., Srikrishnan, V., & Keller, K. (2020). Neglecting Uncertainties Biases House-Elevation Decisions to Manage Riverine Flood Risks. Nature Communications. https://doi.org/10.1038/s41467-020-19188-9",
     "crumbs": [
       "Guide",
       "Learning Materials",
-      "Reading List"
+      "Reading Lists"
     ]
   },
   {
-    "objectID": "docs/prof-dev.html",
-    "href": "docs/prof-dev.html",
-    "title": "Professional Development",
-    "section": "",
-    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nOverview\nQuestions to ask oneself through career\nSome helpful resources\n\nApplication checklist\nBuilding a cv\nBuilding a personal webpage",
-    "crumbs": [
-      "Guide",
-      "Professional Development"
-    ]
-  },
-  {
-    "objectID": "docs/materials/reproduce-repos.html",
-    "href": "docs/materials/reproduce-repos.html",
-    "title": "Reproduce Our Projects!",
-    "section": "",
-    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nNeed to figure out the best way to organize the GitHub repos. Maybe there is a cool way to do this by category. For starters, I think a table that allows for sorting (e.g., by year) is good.",
+    "objectID": "docs/materials/reading-list.html#uncertainty-and-risk-communication",
+    "href": "docs/materials/reading-list.html#uncertainty-and-risk-communication",
+    "title": "Reading List",
+    "section": "Uncertainty and Risk Communication",
+    "text": "Uncertainty and Risk Communication\n\nvan der Bles, A. M., van der Linden, S., Freeman, A. L. J., & Spiegelhalter, D. J. (2020). The effects of communicating uncertainty on public trust in facts and numbers. Proceedings of the National Academy of Sciences of the United States of America, 117(14), 7672–7683. https://doi.org/10.1073/pnas.1913678117\nBudescu, D. V., Broomell, S., & Por, H.-H. (2009). Improving Communication of Uncertainty in the Reports of the Intergovernmental Panel on Climate Change. Psychological Science, 20(3), 299–308. https://doi.org/10.1111/j.1467-9280.2009.02284.x\nBudescu, D. V., Por, H.-H., & Broomell, S. B. (2012). Effective communication of uncertainty in the IPCC reports. Climatic Change, 113(2), 181–200. https://doi.org/10.1007/s10584-011-0330-3\nBudescu, D. V., Broomell, S. B., Lempert, R. J., & Keller, K. (2014). Aided and unaided decisions with imprecise probabilities in the domain of losses. EURO Journal on Decision Processes, 2(1), 31–62. https://doi.org/10.1007/s40070-013-0023-4\nBudescu, D. V., Por, H.-H., Broomell, S. B., & Smithson, M. (2014). The interpretation of IPCC probabilistic statements around the world. Nature Climate Change, 4(6), 508–512. https://doi.org/10.1038/nclimate2194\nCooper, C. M., Sharma, S., Nicholas, R. E., & Keller, K. (2022, January 4). Trade-offs in the design and communication of flood-risk information. arXiv [stat.AP]. Retrieved from http://arxiv.org/abs/2201.01254\nEllsberg, D. (1961). Risk, Ambiguity, and the Savage Axioms. The Quarterly Journal of Economics, 75(4), 643–669. https://doi.org/10.2307/1884324\nFEMA. (2021). National Risk Index- Technical Documentation. FEMA. Retrieved from https://www.fema.gov/sites/default/files/documents/fema_national-risk-index_technical-documentation.pdf accessed Oct 4 2011\nHobbins, R., Muñoz-Erickson, T. A., & Miller, C. (2021). Producing and Communicating Flood Risk: A Knowledge System Analysis of FEMA Flood Maps in New York City. In Z. A. Hamstead, D. M. Iwaniec, T. McPhearson, M. Berbés-Blázquez, E. M. Cook, & T. A. Muñoz-Erickson (Eds.), Resilient Urban Futures (pp. 67–84). Cham: Springer International Publishing. https://doi.org/10.1007/978-3-030-63131-4_5\nKoslov, L. (2019). How maps make time. City, 23(4-5), 658–672. https://doi.org/10.1080/13604813.2019.1690337\nMastrandrea, M. D., Field, C. B., Stocker, T. F., Edenhofer, O., Ebi, K. L., Frame, D. J., et al. (2010). Guidance note for lead authors of the IPCC fifth assessment report on consistent treatment of uncertainties. Retrieved from http://pubman.mpdl.mpg.de/pubman/item/escidoc:2147184/component/escidoc:2147185/uncertainty-guidance-note.pdf\nMastrandrea, M. D., Mach, K. J., Plattner, G.-K., Edenhofer, O., Stocker, T. F., Field, C. B., et al. (2011). The IPCC AR5 guidance note on consistent treatment of uncertainties: a common approach across the working groups. Climatic Change, 108(4), 675. https://doi.org/10.1007/s10584-011-0178-6\nSimpson, M., Padilla, L., Keller, K., & Klippel, A. (2022). Immersive storm surge flooding: Scale and risk perception in virtual reality. Journal of Environmental Psychology, (101764), 101764. https://doi.org/10.1016/j.jenvp.2022.101764\nWing, O. E. J., Pinter, N., Bates, P. D., & Kousky, C. (2020). New insights into US flood vulnerability revealed from flood insurance big data. Nature Communications, 11(1), 1444. https://doi.org/10.1038/s41467-020-15264-2\nZwick, R., Budescu, D. V., & Wallsten, T. S. (1988). An Empirical Study of the Integration of Linguistic Probabilities. In T. Zétényi (Ed.), Advances in Psychology (Vol. 56, pp. 91–125). North-Holland. https://doi.org/10.1016/S0166-4115(08)60483-5\nAhmad, N., Peterson, N., & Torella, F. (2015). The Micromort: a unit for comparing and communicating risk to patients. International Journal of Clinical Practice, 69(5), 515–517. https://doi.org/10.1111/ijcp.12643\nFaulkner, H., Parker, D., Green, C., & Beven, K. (2007). Developing a translational discourse to communicate uncertainty in flood risk between science and the practitioner. Ambio, 36(8), 692–703. Retrieved from https://www.ncbi.nlm.nih.gov/pubmed/18240686\nFischhoff, B. (2014). Four answers to four questions (about risk communication). Journal of Risk Research, 17(10), 1265–1267. https://doi.org/10.1080/13669877.2014.940598\nLarrick, R. P., & Soll, J. B. (2008). Economics. The MPG illusion. Science, 320(5883), 1593–1594. https://doi.org/10.1126/science.1154983\nLee, K. D., Torell, G. L., & Newman, S. (2021). A once-in-one-hundred-year event? A survey assessing deviation between perceived and actual understanding of flood risk terminology. Journal of Environmental Management, 277, 111400. https://doi.org/10.1016/j.jenvman.2020.111400\nOtway, H., & Wynne, B. (1989). Risk Communication: Paradigm and Paradox. Risk Analysis: An Official Publication of the Society for Risk Analysis, 9(2), 141–145. https://doi.org/10.1111/j.1539-6924.1989.tb01232.x\nSpiegelhalter, D. (2017). Risk and Uncertainty Communication. Annual Review of Statistics and Its Application. https://doi.org/10.1146/annurev-statistics-010814-020148",
     "crumbs": [
       "Guide",
       "Learning Materials",
-      "Reproduce Our Projects!"
+      "Reading Lists"
     ]
   },
   {
-    "objectID": "docs/sci-comm/presentation-guidelines.html",
-    "href": "docs/sci-comm/presentation-guidelines.html",
-    "title": "Presentation Guidelines",
-    "section": "",
-    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nGeneral principles\nChecklist\nExamples/Gallery",
+    "objectID": "docs/materials/reading-list.html#other-lists",
+    "href": "docs/materials/reading-list.html#other-lists",
+    "title": "Reading List",
+    "section": "Other Lists:",
+    "text": "Other Lists:\n\nAgent-Based Modeling\nCoastal Flood Hazards\nDiscount Rates\nDecarbonization\nUC/UQ\nPM2.5 Health Impacts",
     "crumbs": [
       "Guide",
-      "Science Communication",
-      "Presentation Guidelines"
+      "Learning Materials",
+      "Reading Lists"
     ]
   },
   {
@@ -190,16 +137,95 @@
     ]
   },
   {
-    "objectID": "docs/analysis/lab-github.html",
-    "href": "docs/analysis/lab-github.html",
-    "title": "Our Group’s Common GitHub Use Cases",
+    "objectID": "docs/prof-dev.html",
+    "href": "docs/prof-dev.html",
+    "title": "Professional Development",
     "section": "",
-    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nMany tutorials for general GitHub use cases\nThere are a few things we expect you to use GitHub (or other version control) for. We provide guidance and examples for those uses cases on GitHub:\n\nContributing to our lab meetings GitHub\nContributing to this manual\nSetting up a project; use j40_gc as example (plus see other guide on reproducible workflows) -&gt; treat this as a kind of cookbook, not a complete tutorial\nMaintaining a package (use UNSAFE as an example); principles from setting up a project apply but a few differences",
+    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nOverview\nQuestions to ask oneself through career\nSome helpful resources\n\nApplication checklist\nBuilding a cv\nBuilding a personal webpage",
     "crumbs": [
       "Guide",
-      "Data Analysis",
-      "Our Group's Common GitHub Use Cases"
+      "Professional Development"
     ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the Keller Group Lab Manual!",
+    "section": "",
+    "text": "Learn and Contribute!\n\n\n\nThis manual is always under construction. If you would like to fix any mistakes, request additional material, or modify content, please submit a new Issue on GitHub."
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Welcome to the Keller Group Lab Manual!",
+    "section": "Overview",
+    "text": "Overview\nThe purpose of this manual is to help new members and collaborators build a shared base of foundational knowledge for the kind of work we do in the Keller Lab Group. This is a collaborative, living document build with Quarto and hosted with GitHub Pages.\nThis manual details lab procedures, policies, and expectations for research group members (and may be helpful for collaborators to consult). The manual contains three sections:\n\nLab Values outlines the expectations we have for each other and ourselves to ensure a functional, healthy, and productive lab group; it is not a marketplace for Labrador Retrievers.\nOnboarding is your first stop as a new lab member (and may be helpful for others) to get your working environment and workflows set up.\nGuide is the home of our (always growing!) lab resources, how-tos, and tips for building a strong knowedge foundation for the kind of work we do in the group."
+  },
+  {
+    "objectID": "index.html#credit",
+    "href": "index.html#credit",
+    "title": "Welcome to the Keller Group Lab Manual!",
+    "section": "Credit",
+    "text": "Credit\nThe organization and content of this lab manual borrows heavily from several documents:\n\nThe Quarto Website & GitHub Repository\nThe Srikrishnan Group at BEE Cornell Lab Manual\nThe Reed Group at Cornel CEE Lab Manual\nThe Julia Workshop for Data Science at ISMB, 2022\n\nA huge thank you to all of these sources for making their work open and instructive!\nWe also thank Adam Pollack for putting together the first draft of the lab manual, leading initial revisions, and coordinating group contributions to the manual. Adam acknowledges the use of several LLMs (e.g., Claude 3.5 Sonnet, GPT-4o, and Llama 3.2 11b) made available by Dartmouth."
+  },
+  {
+    "objectID": "docs/resources.html",
+    "href": "docs/resources.html",
+    "title": "Additional Resources",
+    "section": "",
+    "text": "There are a number of resources you should familiarize yourself with as a part of your onboarding. It may also be helpful to revisit this list from time to time after you settle in. Poke around and see what is useful to adopt in your workflows.",
+    "crumbs": [
+      "Onboarding",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "docs/resources.html#resources-for-research",
+    "href": "docs/resources.html#resources-for-research",
+    "title": "Additional Resources",
+    "section": "Resources for Research",
+    "text": "Resources for Research\n\nDartmouth Libraries\n\nDefinitely check out the links connected to Data Services.\nThere are nice workshop series for learning the fundamentals of topics like python, LaTeX, GitHub, etc., Check them out and contribute your knowledge to the manual!\n\nThayer School Computing Services Knowledge Base.\n\nNot extensive but several articles will likely become a key part of your workflows\n\nAI Tools repository.\n\nWe are very lucky to have access to a number of AI tools, especially the Dartmouth Chat app that supports commercial and open-source models for all Dartmouth members.",
+    "crumbs": [
+      "Onboarding",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "docs/resources.html#resources-for-life",
+    "href": "docs/resources.html#resources-for-life",
+    "title": "Additional Resources",
+    "section": "Resources for life",
+    "text": "Resources for life\n\nEnjoy the upper valley!!\n\nExplore\nConnect to existing communities\n\nHousing in the upper valley\n\nRentals for grad students and postdocs\nCraigslist sometimes has good finds\n\nGood Facebook marketplace for furniture!\nTake the bus if you can",
+    "crumbs": [
+      "Onboarding",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "docs/lab-values/index.html",
+    "href": "docs/lab-values/index.html",
+    "title": "Lab Values",
+    "section": "",
+    "text": "Figure 1: Sorry, Klaus, this is not about doggos. Credit: https://www.pexels.com/photo/photo-of-dog-laying-on-grass-3039079/\n\n\n\nOur group holds the following core values (in no particular order):\n\nTransparency: We share our research process, code, data, and limitations openly. We aim to be explicit about the values-laden nature of our work. We push ourselves to communicate honestly and clearly.\nAccessibility: We aim to make our research understandable and available to both academic and public audiences. We design our shared workspaces to accommodate different needs of group members and foster an open environment in which members can confidently request accommodations.\nInclusivity: We believe the healthiest lab environment and best science happens when people with different viewpoints and experiences work together. We actively foster such an environment and aim to make the Keller Group a place where all members feel like they can completely be themselves.\nCuriosity: We crave a lab environment filled with creative ideas, questions, open exchange, and boundary pushing.\nWork-life balance: We understand that research is just one part of who we are. We maintain clear boundaries between work and personal time, and support each other in pursuing interests and commitments outside the lab.\nContributing to real-world problems: Our research is motivated by, and reponsive to, pressing societal challenges. We wish they weren’t so hard and consequential, but we love thinking about wicked problems! We strive to make meaningful impacts beyond academia. This often calls for a transdisciplinary, collaborative, and integrative approach that we all enjoy.\nExcellence: We strive for excellence in all our activities. For example, we want the paper we’re working on to be our best and we treat every talk like a job talk. We are careful, rigorous, and polished. In the words of John Wooden, “if you don’t have time to do it right, when will you have time to do it over?”"
+  },
+  {
+    "objectID": "docs/materials/reproduce-repos.html",
+    "href": "docs/materials/reproduce-repos.html",
+    "title": "Reproduce Our Projects!",
+    "section": "",
+    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nNeed to figure out the best way to organize the GitHub repos. Maybe there is a cool way to do this by category. For starters, I think a table that allows for sorting (e.g., by year) is good.",
+    "crumbs": [
+      "Guide",
+      "Learning Materials",
+      "Repositories"
+    ]
+  },
+  {
+    "objectID": "docs/sci-comm/our-goals.html",
+    "href": "docs/sci-comm/our-goals.html",
+    "title": "Our Science Communication Goals",
+    "section": "",
+    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\nThe idea of this page is to lay out why we care about science communication and providing context about the subsequent guides on being a good communicator for mediums such as presentations, papers, paper contracts, etc., Our goals might follow the message box format -&gt; clear issue, audience, problem statement, so what, etc., Could change this from “goals” to “approach” as well."
   },
   {
     "objectID": "docs/onboarding/index.html",
@@ -239,6 +265,18 @@
     "text": "Resources\nThere are also some webpages we think you should be aware of. We provide a list and description here.",
     "crumbs": [
       "Onboarding"
+    ]
+  },
+  {
+    "objectID": "docs/analysis/lab-github.html",
+    "href": "docs/analysis/lab-github.html",
+    "title": "Our Group’s Common GitHub Use Cases",
+    "section": "",
+    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nMany tutorials for general GitHub use cases\nThere are a few things we expect you to use GitHub (or other version control) for. We provide guidance and examples for those uses cases on GitHub:\n\nContributing to our lab meetings GitHub\nContributing to this manual\nSetting up a project; use j40_gc as example (plus see other guide on reproducible workflows) -&gt; treat this as a kind of cookbook, not a complete tutorial\nMaintaining a package (use UNSAFE as an example); principles from setting up a project apply but a few differences",
+    "crumbs": [
+      "Guide",
+      "Data Analysis",
+      "Common GitHub Use Cases"
     ]
   }
 ]

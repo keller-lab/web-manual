@@ -38,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-5a826e4af7eecaabd25d6f3b90452d10.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-4b0099ec38ba2af056605ba309e2e659.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -125,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../docs/guide/index.html">Guide</a></li><li class="breadcrumb-item">Data Analysis</li><li class="breadcrumb-item"><a href="../../docs/analysis/lab-github.html">Our Group’s Common GitHub Use Cases</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../docs/guide/index.html">Guide</a></li><li class="breadcrumb-item"><a href="../../docs/analysis/overview.qmd">Data Analysis</a></li><li class="breadcrumb-item"><a href="../../docs/analysis/lab-github.html">Common GitHub Use Cases</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -156,12 +156,15 @@ ul.task-list li input[type="checkbox"] {
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
- <span class="menu-text">docs/analysis/overview.qmd</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../../docs/analysis/overview.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Our Approach</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../docs/analysis/lab-github.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Our Group’s Common GitHub Use Cases</span></a>
+ <span class="menu-text">Common GitHub Use Cases</span></a>
   </div>
 </li>
       </ul>
@@ -176,12 +179,15 @@ ul.task-list li input[type="checkbox"] {
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
- <span class="menu-text">docs/sci-comm/overview.qmd</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../../docs/sci-comm/overview.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Our Goals</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../docs/sci-comm/presentation-guidelines.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Presentation Guidelines</span></a>
+ <span class="menu-text">Presentations</span></a>
   </div>
 </li>
       </ul>
@@ -198,13 +204,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../docs/materials/reading-list.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Reading List</span></a>
+ <span class="menu-text">Reading Lists</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../docs/materials/reproduce-repos.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Reproduce Our Projects!</span></a>
+ <span class="menu-text">Repositories</span></a>
   </div>
 </li>
       </ul>
@@ -228,7 +234,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../docs/guide/index.html">Guide</a></li><li class="breadcrumb-item">Data Analysis</li><li class="breadcrumb-item"><a href="../../docs/analysis/lab-github.html">Our Group’s Common GitHub Use Cases</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../docs/guide/index.html">Guide</a></li><li class="breadcrumb-item"><a href="../../docs/analysis/overview.qmd">Data Analysis</a></li><li class="breadcrumb-item"><a href="../../docs/analysis/lab-github.html">Common GitHub Use Cases</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Our Group’s Common GitHub Use Cases</h1>
 </div>
@@ -364,7 +370,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/abpoll\.github\.io\/web-manual\/");
+      var filterRegex = new RegExp("https:\/\/keller-lab\.github\.io\/web-manual\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

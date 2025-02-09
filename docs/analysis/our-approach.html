@@ -38,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-5a826e4af7eecaabd25d6f3b90452d10.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-4b0099ec38ba2af056605ba309e2e659.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -125,8 +125,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#motivating-references" id="toc-motivating-references" class="nav-link" data-scroll-target="#motivating-references">Motivating References</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/abpoll/web-manual/edit/main/docs/analysis/our-approach.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/abpoll/web-manual/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -150,25 +157,70 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This page is under construction! The content here is currently for planning purposes.</p>
-</div>
-</div>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>We conduct data analysis for three interconnected goals. First, we want to mechanistically understand past changes in the Earty system. Second, we want to project plausible future changes in the Earty system. Finally, we want to use this information to design sustainable, scientifically sound, technologically feasible, economically efficient, and ethically defensible risk management strategies. Our data analysis draws from a wide range of disciplines including engineering, Earth sciences, economics, philosophy, decision science, and statistics.</p>
+<p>We believe that for our analyses to be useful and used, they must be transparent, rigorous, interpretable, and reusable.</p>
+<p>The checklist below — designed by Klaus Keller, James Doss-Gollin, and Vivek Srikrishnan — provides the countours of our workflows to achieve our analysis goals:</p>
+<ol type="1">
+<li><strong>Setting up the analysis</strong>
+<ol type="1">
+<li>Legal and ethical questions assessed</li>
+<li>Clear question(s) defined</li>
+<li>Link to decision-making established</li>
+<li>Possible design errors discussed (types I, II, III, IV)</li>
+<li>License defined</li>
+<li>Copyright defined</li>
+<li>Authors defined</li>
+</ol></li>
+<li><strong>Choosing a methods portfolio</strong>
+<ol type="1">
+<li>Bayesian vs Frequentist chosen</li>
+<li>Analytical vs computational approach chosen</li>
+<li>Data generating model defined</li>
+<li>Likelihood function defined</li>
+<li>(Implicit) prior (with correlations) defined</li>
+<li>Required approximations defined</li>
+<li>(Likelihood function, model structure, uncertainties, …)</li>
+<li>Assumptions spelled out</li>
+<li>Positive controls (across key methods and assumptions) performed</li>
+<li>Negative control (across key methods and assumptions) performed</li>
+<li>Expected results (with time-stamp) documented</li>
+</ol></li>
+<li><strong>Performing the analysis</strong>
+<ol type="1">
+<li>Convergence tested (if using numerical methods)</li>
+<li>Assumptions tested (e.g., residuals consistent with likelihood function)</li>
+<li>Prior prediction checks passed</li>
+<li>Posterior predictive checks passed</li>
+<li>Size and effects of (deep uncertainties / forking paths) characterized</li>
+</ol></li>
+<li><strong>Documenting the analysis</strong>
+<ol type="1">
+<li>Authors named and reachable</li>
+<li>Environment variables documented</li>
+<li>Assumptions and robustness discussed</li>
+<li>Code reviewed for logic and consistency with documentation</li>
+<li>Figures publication ready</li>
+<li>Documentation accessible to intended / target audience(s)</li>
+<li>All sources cited</li>
+<li>Non-author contributors acknowledged</li>
+<li>Funding acknowledged</li>
+<li>Conflict of interest declared</li>
+<li>Materials uploaded to repository</li>
+</ol></li>
+</ol>
+</section>
+<section id="motivating-references" class="level2">
+<h2 class="anchored" data-anchor-id="motivating-references">Motivating References</h2>
 <ul>
-<li>See if Klaus is ok with us publishing the analysis checklist doc</li>
-<li>Could organize the checklist doc with hyperlinks to other pages in the section</li>
+<li><p>Doss-Gollin, J., &amp; Keller, K. (2022). A subjective Bayesian framework for synthesizing deep uncertainties in climate risk management. Earth’s Future. <a href="https://doi.org/10.1029/2022ef003044" class="uri">https://doi.org/10.1029/2022ef003044</a></p></li>
+<li><p>Gelman, A., Vehtari, A., Simpson, D., Margossian, C. C., Carpenter, B., Yao, Y., et al.&nbsp;(2020, November 3). Bayesian Workflow. arXiv [stat.ME]. Retrieved from <a href="http://arxiv.org/abs/2011.01808" class="uri">http://arxiv.org/abs/2011.01808</a></p></li>
+<li><p>Pollack, A., Auermuller, L., Burleyson, C., Campbell, J. E., Condon, M., Cooper, C., et al.&nbsp;(2023, December). Investing in open and FAIR practices for more usable and equitable climate-risk research. Preprint. Retrieved from <a href="http://dx.doi.org/10.31219/osf.io/29nhv" class="uri">http://dx.doi.org/10.31219/osf.io/29nhv</a></p></li>
 </ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -261,7 +313,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/abpoll\.github\.io\/web-manual\/");
+      var filterRegex = new RegExp("https:\/\/keller-lab\.github\.io\/web-manual\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -596,7 +648,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/abpoll/web-manual/edit/main/docs/analysis/our-approach.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/abpoll/web-manual/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/abpoll/web-manual/edit/main/docs/analysis/our-approach.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/abpoll/web-manual/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
