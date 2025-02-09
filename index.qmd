@@ -7,7 +7,7 @@ title: "Welcome to the Keller Group Lab Manual!"
 This manual is always under construction. If you would like to fix any mistakes, request additional material, or modify content, please submit a new Issue on [GitHub](https://github.com/abpoll/web-manual/issues).
 :::
 
-![This is a temporary figure until we get a new one with the latest group members all together.](images/temp_lab_group_photo.png){#fig-main-col .margin-caption}
+![The Keller Group as of January, 2025](images/lab_group_photo.jpg){#fig-main-col .margin-caption}
 
 ## Overview
 

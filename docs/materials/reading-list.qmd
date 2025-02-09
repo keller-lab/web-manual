@@ -1,5 +1,7 @@
 ---
 title: "Reading List"
+format: 
+  html: default
 ---
 
 ## Strongly Recommended Reading
@@ -53,12 +55,36 @@ You may want to prioritize the articles in [red]{style="color: red;"}.
 * Zaniolo, M., Giuliani, M., & Castelletti, A. (2021). Policy Representation Learning for multiobjective reservoir policy design with different objective dynamics. Water Resources Research. <https://doi.org/10.1029/2020wr029329>
 * [Zarekarizi, M., Srikrishnan, V., & Keller, K. (2020). Neglecting Uncertainties Biases House-Elevation Decisions to Manage Riverine Flood Risks. Nature Communications. <https://doi.org/10.1038/s41467-020-19188-9>]{.red}
 
+## Uncertainty and Risk Communication
+* van der Bles, A. M., van der Linden, S., Freeman, A. L. J., & Spiegelhalter, D. J. (2020). The effects of communicating uncertainty on public trust in facts and numbers. Proceedings of the National Academy of Sciences of the United States of America, 117(14), 7672–7683. <https://doi.org/10.1073/pnas.1913678117>
+* Budescu, D. V., Broomell, S., & Por, H.-H. (2009). Improving Communication of Uncertainty in the Reports of the Intergovernmental Panel on Climate Change. Psychological Science, 20(3), 299–308. <https://doi.org/10.1111/j.1467-9280.2009.02284.x>
+* Budescu, D. V., Por, H.-H., & Broomell, S. B. (2012). Effective communication of uncertainty in the IPCC reports. Climatic Change, 113(2), 181–200. <https://doi.org/10.1007/s10584-011-0330-3>
+* Budescu, D. V., Broomell, S. B., Lempert, R. J., & Keller, K. (2014). Aided and unaided decisions with imprecise probabilities in the domain of losses. EURO Journal on Decision Processes, 2(1), 31–62. <https://doi.org/10.1007/s40070-013-0023-4>
+* Budescu, D. V., Por, H.-H., Broomell, S. B., & Smithson, M. (2014). The interpretation of IPCC probabilistic statements around the world. Nature Climate Change, 4(6), 508–512. <https://doi.org/10.1038/nclimate2194>
+* Cooper, C. M., Sharma, S., Nicholas, R. E., & Keller, K. (2022, January 4). Trade-offs in the design and communication of flood-risk information. arXiv [stat.AP]. Retrieved from <http://arxiv.org/abs/2201.01254>
+* Ellsberg, D. (1961). Risk, Ambiguity, and the Savage Axioms. The Quarterly Journal of Economics, 75(4), 643–669. <https://doi.org/10.2307/1884324>
+* FEMA. (2021). National Risk Index- Technical Documentation. FEMA. Retrieved from <https://www.fema.gov/sites/default/files/documents/fema_national-risk-index_technical-documentation.pdf> accessed Oct 4 2011
+* Hobbins, R., Muñoz-Erickson, T. A., & Miller, C. (2021). Producing and Communicating Flood Risk: A Knowledge System Analysis of FEMA Flood Maps in New York City. In Z. A. Hamstead, D. M. Iwaniec, T. McPhearson, M. Berbés-Blázquez, E. M. Cook, & T. A. Muñoz-Erickson (Eds.), Resilient Urban Futures (pp. 67–84). Cham: Springer International Publishing. <https://doi.org/10.1007/978-3-030-63131-4_5>
+* Koslov, L. (2019). How maps make time. City, 23(4-5), 658–672. <https://doi.org/10.1080/13604813.2019.1690337>
+* Mastrandrea, M. D., Field, C. B., Stocker, T. F., Edenhofer, O., Ebi, K. L., Frame, D. J., et al. (2010). Guidance note for lead authors of the IPCC fifth assessment report on consistent treatment of uncertainties. Retrieved from <http://pubman.mpdl.mpg.de/pubman/item/escidoc:2147184/component/escidoc:2147185/uncertainty-guidance-note.pdf>
+* Mastrandrea, M. D., Mach, K. J., Plattner, G.-K., Edenhofer, O., Stocker, T. F., Field, C. B., et al. (2011). The IPCC AR5 guidance note on consistent treatment of uncertainties: a common approach across the working groups. Climatic Change, 108(4), 675. <https://doi.org/10.1007/s10584-011-0178-6>
+* Simpson, M., Padilla, L., Keller, K., & Klippel, A. (2022). Immersive storm surge flooding: Scale and risk perception in virtual reality. Journal of Environmental Psychology, (101764), 101764. <https://doi.org/10.1016/j.jenvp.2022.101764>
+* Wing, O. E. J., Pinter, N., Bates, P. D., & Kousky, C. (2020). New insights into US flood vulnerability revealed from flood insurance big data. Nature Communications, 11(1), 1444. <https://doi.org/10.1038/s41467-020-15264-2>
+* Zwick, R., Budescu, D. V., & Wallsten, T. S. (1988). An Empirical Study of the Integration of Linguistic Probabilities. In T. Zétényi (Ed.), Advances in Psychology (Vol. 56, pp. 91–125). North-Holland. <https://doi.org/10.1016/S0166-4115(08)60483-5>
+* Ahmad, N., Peterson, N., & Torella, F. (2015). The Micromort: a unit for comparing and communicating risk to patients. International Journal of Clinical Practice, 69(5), 515–517. <https://doi.org/10.1111/ijcp.12643>
+* Faulkner, H., Parker, D., Green, C., & Beven, K. (2007). Developing a translational discourse to communicate uncertainty in flood risk between science and the practitioner. Ambio, 36(8), 692–703. Retrieved from <https://www.ncbi.nlm.nih.gov/pubmed/18240686>
+* Fischhoff, B. (2014). Four answers to four questions (about risk communication). Journal of Risk Research, 17(10), 1265–1267. <https://doi.org/10.1080/13669877.2014.940598>
+* Larrick, R. P., & Soll, J. B. (2008). Economics. The MPG illusion. Science, 320(5883), 1593–1594. <https://doi.org/10.1126/science.1154983>
+* Lee, K. D., Torell, G. L., & Newman, S. (2021). A once-in-one-hundred-year event? A survey assessing deviation between perceived and actual understanding of flood risk terminology. Journal of Environmental Management, 277, 111400. <https://doi.org/10.1016/j.jenvman.2020.111400>
+* Otway, H., & Wynne, B. (1989). Risk Communication: Paradigm and Paradox. Risk Analysis: An Official Publication of the Society for Risk Analysis, 9(2), 141–145. <https://doi.org/10.1111/j.1539-6924.1989.tb01232.x>
+* Spiegelhalter, D. (2017). Risk and Uncertainty Communication. Annual Review of Statistics and Its Application. <https://doi.org/10.1146/annurev-statistics-010814-020148>
 
-Other lists:
-<https://docs.google.com/document/d/1H12TrLbll-Jw0g3yVUUKXpDhGIIup2lCdIrPNJAklhg/edit?tab=t.0>
-<https://docs.google.com/document/d/1tlX56928tP217Wi-Tfe8xE0yIt50RZsb_rSBoIXIqhM/edit?tab=t.0>
-<https://docs.google.com/document/d/1B_WBSmKl1f4B2ANr4xwFpy4C681zzu_zfsmoldeEu88/edit?tab=t.0>
-<https://docs.google.com/document/d/1ToLuB4LeA_48wfBoceTBNR4QfpAqYae7esLhxlBB39Y/edit?tab=t.0>
-<https://docs.google.com/document/d/1264tmEowncAgUNhxNbKKCBT_ncXOmE8EWFRLpZFxulQ/edit?tab=t.0>
-<https://docs.google.com/document/d/1DtVt3DEpMc5Wl_FuRTow1Utn2BdyhYjz_piKfz-i-Kc/edit?tab=t.0>
-<https://docs.google.com/document/d/12bz_nb669lFCxuo5cTSH_p-8XNOo-TicqQGFVzfInFU/edit?tab=t.0>
+
+## Other Lists:
+
+* [Agent-Based Modeling](https://docs.google.com/document/d/1H12TrLbll-Jw0g3yVUUKXpDhGIIup2lCdIrPNJAklhg/edit?tab=t.0)
+* [Coastal Flood Hazards](https://docs.google.com/document/d/1tlX56928tP217Wi-Tfe8xE0yIt50RZsb_rSBoIXIqhM/edit?tab=t.0)
+* [Discount Rates](https://docs.google.com/document/d/1B_WBSmKl1f4B2ANr4xwFpy4C681zzu_zfsmoldeEu88/edit?tab=t.0)
+* [Decarbonization](https://docs.google.com/document/d/1ToLuB4LeA_48wfBoceTBNR4QfpAqYae7esLhxlBB39Y/edit?tab=t.0)
+* [UC/UQ](https://docs.google.com/document/d/1DtVt3DEpMc5Wl_FuRTow1Utn2BdyhYjz_piKfz-i-Kc/edit?tab=t.0)
+* [PM2.5 Health Impacts](https://docs.google.com/document/d/12bz_nb669lFCxuo5cTSH_p-8XNOo-TicqQGFVzfInFU/edit?tab=t.0)

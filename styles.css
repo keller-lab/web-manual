@@ -68,3 +68,9 @@
 .red {
     color: red;
 }
+
+li {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-all;
+  }

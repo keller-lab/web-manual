@@ -54,16 +54,22 @@ website:
           contents:
            - section: "Data Analysis"
              contents:
-              - docs/analysis/overview.qmd
-              - docs/analysis/lab-github.qmd
+              - text: "Our Approach"
+                href: docs/analysis/overview.qmd
+              - text: "Common GitHub Use Cases"
+                href: docs/analysis/lab-github.qmd
            - section: "Science Communication"
              contents: 
-              - docs/sci-comm/overview.qmd
-              - docs/sci-comm/presentation-guidelines.qmd
+              - text: "Our Goals"
+                href: docs/sci-comm/overview.qmd
+              - text: "Presentations"
+                href: docs/sci-comm/presentation-guidelines.qmd
            - section: "Learning Materials"
              contents: 
-              - docs/materials/reading-list.qmd
-              - docs/materials/reproduce-repos.qmd
+              - text: Reading Lists
+                href: docs/materials/reading-list.qmd
+              - text: Repositories
+                href: docs/materials/reproduce-repos.qmd
            - text: "Professional Development"
              href: docs/prof-dev.qmd
 
