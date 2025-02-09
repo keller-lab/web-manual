@@ -228,8 +228,25 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#high-level-overview" id="toc-high-level-overview" class="nav-link active" data-scroll-target="#high-level-overview">High-level overview</a></li>
+  <li><a href="#recommended-tutorials-and-resources" id="toc-recommended-tutorials-and-resources" class="nav-link" data-scroll-target="#recommended-tutorials-and-resources">Recommended Tutorials and Resources</a></li>
+  <li><a href="#lab-cookbook" id="toc-lab-cookbook" class="nav-link" data-scroll-target="#lab-cookbook">Lab Cookbook</a>
+  <ul class="collapse">
+  <li><a href="#keep-track-of-lab-meetings" id="toc-keep-track-of-lab-meetings" class="nav-link" data-scroll-target="#keep-track-of-lab-meetings">Keep track of lab meetings</a></li>
+  <li><a href="#contribute-to-the-webpage" id="toc-contribute-to-the-webpage" class="nav-link" data-scroll-target="#contribute-to-the-webpage">Contribute to the webpage</a></li>
+  <li><a href="#contribute-to-this-manual" id="toc-contribute-to-this-manual" class="nav-link" data-scroll-target="#contribute-to-this-manual">Contribute to this manual</a></li>
+  <li><a href="#set-up-your-research-project" id="toc-set-up-your-research-project" class="nav-link" data-scroll-target="#set-up-your-research-project">Set up your research project</a></li>
+  <li><a href="#maintain-your-research-project" id="toc-maintain-your-research-project" class="nav-link" data-scroll-target="#maintain-your-research-project">Maintain your research project</a></li>
+  <li><a href="#set-up-a-software-package" id="toc-set-up-a-software-package" class="nav-link" data-scroll-target="#set-up-a-software-package">Set up a software package</a></li>
+  <li><a href="#maintain-a-software-package" id="toc-maintain-a-software-package" class="nav-link" data-scroll-target="#maintain-a-software-package">Maintain a software package</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/abpoll/web-manual/edit/main/docs/analysis/lab-github.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/abpoll/web-manual/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -253,31 +270,55 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This page is under construction! The content here is currently for planning purposes.</p>
-</div>
-</div>
+<section id="high-level-overview" class="level2">
+<h2 class="anchored" data-anchor-id="high-level-overview">High-level overview</h2>
+<p>We use GitHub for many tasks:</p>
 <ul>
-<li>Many tutorials for general GitHub use cases</li>
-<li>There are a few things we expect you to use GitHub (or other version control) for. We provide guidance and examples for those uses cases on GitHub:
-<ul>
-<li>Contributing to our lab meetings GitHub</li>
-<li>Contributing to this manual</li>
-<li>Setting up a project; use j40_gc as example (plus see other guide on reproducible workflows) -&gt; treat this as a kind of cookbook, not a complete tutorial</li>
-<li>Maintaining a package (use UNSAFE as an example); principles from setting up a project apply but a few differences</li>
-</ul></li>
+<li>Conduct careful versional control on all projects (solo or collaborative)</li>
+<li>Keep track of our lab meeting agendas and presentation order</li>
+<li>Maintain the group webpage</li>
+<li>Maintain this lab manual</li>
 </ul>
+<p>This is easier said than done! See below for some helpful resources and code.</p>
+</section>
+<section id="recommended-tutorials-and-resources" class="level2">
+<h2 class="anchored" data-anchor-id="recommended-tutorials-and-resources">Recommended Tutorials and Resources</h2>
+<p>Credit to James Doss-Gollin’s <a href="https://ceve-421-521.github.io/resources.html">CEVE 421/521: Climate Risk Management Course at Rice University</a> for this helpful curated list.</p>
+<ul>
+<li><a href="https://www.theodinproject.com/lessons/foundations-git-basics">Git Basics</a> from The Odin Project.</li>
+<li><a href="https://learngitbranching.js.org/">Learn Git Branching</a>: An interactive, visual tutorial to how git works.</li>
+<li><a href="https://missing.csail.mit.edu/2020/version-control/">Version Control</a> from MIT’s “CS: Your Missing Semester” course.</li>
+<li><a href="https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV">Git and GitHub for Poets</a>: YouTube playlist covering the basics of git and GitHub.</li>
+<li><a href="https://swcarpentry.github.io/git-novice/">Version Control with Git</a> course from Software Carpentry</li>
+</ul>
+</section>
+<section id="lab-cookbook" class="level2">
+<h2 class="anchored" data-anchor-id="lab-cookbook">Lab Cookbook</h2>
+<p>These code blocks and recommendations can be helpful for routine tasks, but may require knowledge and set-up that they don’t explicitly acknowledge. To use these recipes well, you should work through the recommended tutorials and resources above (or have commensurate knowledge).</p>
+<section id="keep-track-of-lab-meetings" class="level3">
+<h3 class="anchored" data-anchor-id="keep-track-of-lab-meetings">Keep track of lab meetings</h3>
+</section>
+<section id="contribute-to-the-webpage" class="level3">
+<h3 class="anchored" data-anchor-id="contribute-to-the-webpage">Contribute to the webpage</h3>
+</section>
+<section id="contribute-to-this-manual" class="level3">
+<h3 class="anchored" data-anchor-id="contribute-to-this-manual">Contribute to this manual</h3>
+</section>
+<section id="set-up-your-research-project" class="level3">
+<h3 class="anchored" data-anchor-id="set-up-your-research-project">Set up your research project</h3>
+</section>
+<section id="maintain-your-research-project" class="level3">
+<h3 class="anchored" data-anchor-id="maintain-your-research-project">Maintain your research project</h3>
+</section>
+<section id="set-up-a-software-package" class="level3">
+<h3 class="anchored" data-anchor-id="set-up-a-software-package">Set up a software package</h3>
+</section>
+<section id="maintain-a-software-package" class="level3">
+<h3 class="anchored" data-anchor-id="maintain-a-software-package">Maintain a software package</h3>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -705,7 +746,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/abpoll/web-manual/edit/main/docs/analysis/lab-github.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/abpoll/web-manual/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/abpoll/web-manual/edit/main/docs/analysis/lab-github.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/abpoll/web-manual/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
