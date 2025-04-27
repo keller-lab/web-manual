@@ -1,50 +1,68 @@
 [
   {
-    "objectID": "docs/analysis/our-approach.html",
-    "href": "docs/analysis/our-approach.html",
-    "title": "Our Approach to Data Analysis",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the Keller Group Lab Manual!",
     "section": "",
-    "text": "We conduct data analysis for three interconnected goals. First, we want to mechanistically understand past changes in the Earty system. Second, we want to project plausible future changes in the Earty system. Finally, we want to use this information to design sustainable, scientifically sound, technologically feasible, economically efficient, and ethically defensible risk management strategies. Our data analysis draws from a wide range of disciplines including engineering, Earth sciences, economics, philosophy, decision science, and statistics.\nWe believe that for our analyses to be useful and used, they must be transparent, rigorous, interpretable, and reusable.\nThe checklist below — designed by Klaus Keller, James Doss-Gollin, and Vivek Srikrishnan — provides the countours of our workflows to achieve our analysis goals:\n\nSetting up the analysis\n\nLegal and ethical questions assessed\nClear question(s) defined\nLink to decision-making established\nPossible design errors discussed (types I, II, III, IV)\nLicense defined\nCopyright defined\nAuthors defined\n\nChoosing a methods portfolio\n\nBayesian vs Frequentist chosen\nAnalytical vs computational approach chosen\nData generating model defined\nLikelihood function defined\n(Implicit) prior (with correlations) defined\nRequired approximations defined\n(Likelihood function, model structure, uncertainties, …)\nAssumptions spelled out\nPositive controls (across key methods and assumptions) performed\nNegative control (across key methods and assumptions) performed\nExpected results (with time-stamp) documented\n\nPerforming the analysis\n\nConvergence tested (if using numerical methods)\nAssumptions tested (e.g., residuals consistent with likelihood function)\nPrior prediction checks passed\nPosterior predictive checks passed\nSize and effects of (deep uncertainties / forking paths) characterized\n\nDocumenting the analysis\n\nAuthors named and reachable\nEnvironment variables documented\nAssumptions and robustness discussed\nCode reviewed for logic and consistency with documentation\nFigures publication ready\nDocumentation accessible to intended / target audience(s)\nAll sources cited\nNon-author contributors acknowledged\nFunding acknowledged\nConflict of interest declared\nMaterials uploaded to repository",
+    "text": "Learn and Contribute!\n\n\n\nThis manual is always under construction. If you would like to fix any mistakes, request additional material, or modify content, please submit a new Issue on GitHub."
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Welcome to the Keller Group Lab Manual!",
+    "section": "Overview",
+    "text": "Overview\nThe purpose of this manual is to help new members and collaborators build a shared base of foundational knowledge for the kind of work we do in the Keller Lab Group. This is a collaborative, living document build with Quarto and hosted with GitHub Pages.\nThis manual details lab procedures, policies, and expectations for research group members (and may be helpful for collaborators to consult). The manual contains three sections:\n\nLab Values outlines the expectations we have for each other and ourselves to ensure a functional, healthy, and productive lab group; it is not a marketplace for Labrador Retrievers.\nOnboarding is your first stop as a new lab member (and may be helpful for others) to get your working environment and workflows set up.\nGuide is the home of our (always growing!) lab resources, how-tos, and tips for building a strong knowedge foundation for the kind of work we do in the group."
+  },
+  {
+    "objectID": "index.html#credit",
+    "href": "index.html#credit",
+    "title": "Welcome to the Keller Group Lab Manual!",
+    "section": "Credit",
+    "text": "Credit\nThe organization and content of this lab manual borrows heavily from several documents:\n\nThe Quarto Website & GitHub Repository\nThe Srikrishnan Group at BEE Cornell Lab Manual\nThe Reed Group at Cornel CEE Lab Manual\nThe Julia Workshop for Data Science at ISMB, 2022\n\nA huge thank you to all of these sources for making their work open and instructive!"
+  },
+  {
+    "objectID": "docs/resources.html",
+    "href": "docs/resources.html",
+    "title": "Additional Resources",
+    "section": "",
+    "text": "There are a number of resources you should familiarize yourself with as a part of your onboarding. It may also be helpful to revisit this list from time to time after you settle in. Poke around and see what is useful to adopt in your workflows.",
     "crumbs": [
-      "Guide",
-      "Data Analysis",
-      "Our Approach"
+      "Onboarding",
+      "Resources"
     ]
   },
   {
-    "objectID": "docs/analysis/our-approach.html#overview",
-    "href": "docs/analysis/our-approach.html#overview",
-    "title": "Our Approach to Data Analysis",
-    "section": "",
-    "text": "We conduct data analysis for three interconnected goals. First, we want to mechanistically understand past changes in the Earty system. Second, we want to project plausible future changes in the Earty system. Finally, we want to use this information to design sustainable, scientifically sound, technologically feasible, economically efficient, and ethically defensible risk management strategies. Our data analysis draws from a wide range of disciplines including engineering, Earth sciences, economics, philosophy, decision science, and statistics.\nWe believe that for our analyses to be useful and used, they must be transparent, rigorous, interpretable, and reusable.\nThe checklist below — designed by Klaus Keller, James Doss-Gollin, and Vivek Srikrishnan — provides the countours of our workflows to achieve our analysis goals:\n\nSetting up the analysis\n\nLegal and ethical questions assessed\nClear question(s) defined\nLink to decision-making established\nPossible design errors discussed (types I, II, III, IV)\nLicense defined\nCopyright defined\nAuthors defined\n\nChoosing a methods portfolio\n\nBayesian vs Frequentist chosen\nAnalytical vs computational approach chosen\nData generating model defined\nLikelihood function defined\n(Implicit) prior (with correlations) defined\nRequired approximations defined\n(Likelihood function, model structure, uncertainties, …)\nAssumptions spelled out\nPositive controls (across key methods and assumptions) performed\nNegative control (across key methods and assumptions) performed\nExpected results (with time-stamp) documented\n\nPerforming the analysis\n\nConvergence tested (if using numerical methods)\nAssumptions tested (e.g., residuals consistent with likelihood function)\nPrior prediction checks passed\nPosterior predictive checks passed\nSize and effects of (deep uncertainties / forking paths) characterized\n\nDocumenting the analysis\n\nAuthors named and reachable\nEnvironment variables documented\nAssumptions and robustness discussed\nCode reviewed for logic and consistency with documentation\nFigures publication ready\nDocumentation accessible to intended / target audience(s)\nAll sources cited\nNon-author contributors acknowledged\nFunding acknowledged\nConflict of interest declared\nMaterials uploaded to repository",
+    "objectID": "docs/resources.html#resources-for-research",
+    "href": "docs/resources.html#resources-for-research",
+    "title": "Additional Resources",
+    "section": "Resources for Research",
+    "text": "Resources for Research\n\nDartmouth Libraries\n\nDefinitely check out the links connected to Data Services.\nThere are nice workshop series for learning the fundamentals of topics like python, LaTeX, GitHub, etc., Check them out and contribute your knowledge to the manual!\n\nThayer School Computing Services Knowledge Base.\n\nNot extensive but several articles will likely become a key part of your workflows\n\nAI Tools repository.\n\nWe are very lucky to have access to a number of AI tools, especially the Dartmouth Chat app that supports commercial and open-source models for all Dartmouth members.",
     "crumbs": [
-      "Guide",
-      "Data Analysis",
-      "Our Approach"
+      "Onboarding",
+      "Resources"
     ]
   },
   {
-    "objectID": "docs/analysis/our-approach.html#motivating-references",
-    "href": "docs/analysis/our-approach.html#motivating-references",
-    "title": "Our Approach to Data Analysis",
-    "section": "Motivating References",
-    "text": "Motivating References\n\nDoss-Gollin, J., & Keller, K. (2022). A subjective Bayesian framework for synthesizing deep uncertainties in climate risk management. Earth’s Future. https://doi.org/10.1029/2022ef003044\nGelman, A., Vehtari, A., Simpson, D., Margossian, C. C., Carpenter, B., Yao, Y., et al. (2020, November 3). Bayesian Workflow. arXiv [stat.ME]. Retrieved from http://arxiv.org/abs/2011.01808\nPollack, A., Auermuller, L., Burleyson, C., Campbell, J. E., Condon, M., Cooper, C., et al. (2023, December). Investing in open and FAIR practices for more usable and equitable climate-risk research. Preprint. Retrieved from http://dx.doi.org/10.31219/osf.io/29nhv",
+    "objectID": "docs/resources.html#resources-for-life",
+    "href": "docs/resources.html#resources-for-life",
+    "title": "Additional Resources",
+    "section": "Resources for life",
+    "text": "Resources for life\n\nEnjoy the upper valley!!\n\nExplore\nConnect to existing communities\n\nHousing in the upper valley\n\nRentals for grad students and postdocs\nCraigslist sometimes has good finds\n\nGood Facebook marketplace for furniture!\nTake the bus if you can",
     "crumbs": [
-      "Guide",
-      "Data Analysis",
-      "Our Approach"
+      "Onboarding",
+      "Resources"
     ]
   },
   {
-    "objectID": "docs/sci-comm/presentation-guidelines.html",
-    "href": "docs/sci-comm/presentation-guidelines.html",
-    "title": "Presentation Guidelines",
+    "objectID": "docs/sci-comm/our-goals.html",
+    "href": "docs/sci-comm/our-goals.html",
+    "title": "Our Science Communication Goals",
     "section": "",
-    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nGeneral principles\nChecklist\nExamples/Gallery",
+    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\nThe idea of this page is to lay out why we care about science communication and providing context about the subsequent guides on being a good communicator for mediums such as presentations, papers, paper contracts, etc., Our goals might follow the message box format -&gt; clear issue, audience, problem statement, so what, etc., Could change this from “goals” to “approach” as well.",
     "crumbs": [
       "Guide",
       "Science Communication",
-      "Presentations"
+      "Our Goals"
     ]
   },
   {
@@ -108,186 +126,6 @@
     ]
   },
   {
-    "objectID": "docs/checklists.html",
-    "href": "docs/checklists.html",
-    "title": "Onboarding Checklists",
-    "section": "",
-    "text": "Have fun and be safe\nReview your personal motivation, values, and professional goals",
-    "crumbs": [
-      "Onboarding",
-      "Checklists"
-    ]
-  },
-  {
-    "objectID": "docs/checklists.html#the-basics",
-    "href": "docs/checklists.html#the-basics",
-    "title": "Onboarding Checklists",
-    "section": "",
-    "text": "Have fun and be safe\nReview your personal motivation, values, and professional goals",
-    "crumbs": [
-      "Onboarding",
-      "Checklists"
-    ]
-  },
-  {
-    "objectID": "docs/checklists.html#coordinate",
-    "href": "docs/checklists.html#coordinate",
-    "title": "Onboarding Checklists",
-    "section": "Coordinate with Klaus",
-    "text": "Coordinate with Klaus\nThis document is available as a pdf (see the right margin) so that you may download and check/highlight items as you complete them.\n\nBefore first meeting\n\nReview Lab Values\nSet up your calendar (e.g., Outlook)\n\nBlock out working and lunch hours\nLeave room for lab meetings, journal club, etc.,\nSet up your weekly meeting schedule with Klaus\n\nAccept Klaus’s invitation to our group’s lab meeting GitHub repo\nMake sure you have access to the group’s shared-folders directory on Google Drive\nFind out who to ask for lab meeting invite\nFind out who to ask for Slack workspace invite\nFind out who to ask for webpage profile\nFind out who to talk to at Irving or Thayer for your ID card, office access, etc., if you don’t already know\n\nThis is a good start\n\nGet situated in your office space\n\nGet equipment (currently Siqi will help with this)\nThayer IT can help set up your laptop\n\nIntroduce yourself to the staff that help make our group successful\n\nCate Albright\nJentry Campbell\nIrving Staff (e.g., Molly Dunn)\n\nDiscuss research interests and potential projects\n\n\n\nAfter first meeting\n\nSend photo, bio, contact, socials to web manager\n\nCheck out existing profiles for examples\n\nJoin group Slack and browse/join channels\n Thayer Computing for access to Kasper and jumbo/keller-lab/ and CC Klaus (he will tell computing gurus it is ok to add you)\nWork through required trainings\n\nDartmouth will have some for you\nYou may want to do human subjects training\nGet driving approval\n\n\n\n\nBefore first lab meeting\n\nCheck out the lab meeting repo and add yourself to the next presentation block\n\nNote: Depending on your experience level, you may find it helpful to consult some examples.\n\nPrepare a 5 minute max presentation to introduce yourself to the group\n\nReview our presentation guidelines\n\n\n\n\nLosing your training wheels\nNow that you have followed these steps, your tasks in the group will become more organic and unique to your chosen path. There is some reading material we strongly recommend for all lab members (and Klaus may assign some), but you can otherwise go through the reading list as best suits your early exploration and planning stages. Otherwise, work through the tutorials in the Guide and find projects to reproduce!",
-    "crumbs": [
-      "Onboarding",
-      "Checklists"
-    ]
-  },
-  {
-    "objectID": "docs/checklists.html#setup",
-    "href": "docs/checklists.html#setup",
-    "title": "Onboarding Checklists",
-    "section": "Set up work environment",
-    "text": "Set up work environment\nIf you work from a Dartmouth laptop, it will come equipped with a lot of helpful software and functionality. If not, you may have to contribute to the manual to offer guidance for setting up software, tools, etc., Either way, there are still set up steps you will have to follow, such as:\n\n\n\n\n\n\n\n\nNote\n\n\n\nIt would be great to have guide entries about selecting between various reference managers, and setting up our coding environments!\n\n\n\nChoose a reference manager (e.g., Zotero or Paperpile)\n\nMany of us use Paperpile because of its Chrome plugin and integration into Google Docs, but Zotero might play better with collaborators and other workflows\n\nSet up a GitHub account if you don’t have one already\nConfigure your GitHub with SSH\nSet up your coding environment\n\nMany of us use VSCode for our IDE. You can SSH onto Kasper or work locally through the same interface.\n\nDartmouth also offers FastX.\nOr, you can run a Jupyter Notebook on Kasper or a HPC node. See here.\n\nSet up online profiles\n\nResearchgate\nGoogle scholar\n\nSet up a Google Drive for collaboration\n\nYou can set up a shared drive or share specific folders\n\nInstall software that you need for your work. For example, many of us use mamba for package management\n\nWhile this is an incomplete list, it will hopefully be enough to get you going for the reading list and the guide",
-    "crumbs": [
-      "Onboarding",
-      "Checklists"
-    ]
-  },
-  {
-    "objectID": "docs/prof-dev.html",
-    "href": "docs/prof-dev.html",
-    "title": "Professional Development",
-    "section": "",
-    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nOverview\nQuestions to ask oneself through career\nSome helpful resources\n\nApplication checklist\nBuilding a cv\nBuilding a personal webpage",
-    "crumbs": [
-      "Guide",
-      "Professional Development"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to the Keller Group Lab Manual!",
-    "section": "",
-    "text": "Learn and Contribute!\n\n\n\nThis manual is always under construction. If you would like to fix any mistakes, request additional material, or modify content, please submit a new Issue on GitHub."
-  },
-  {
-    "objectID": "index.html#overview",
-    "href": "index.html#overview",
-    "title": "Welcome to the Keller Group Lab Manual!",
-    "section": "Overview",
-    "text": "Overview\nThe purpose of this manual is to help new members and collaborators build a shared base of foundational knowledge for the kind of work we do in the Keller Lab Group. This is a collaborative, living document build with Quarto and hosted with GitHub Pages.\nThis manual details lab procedures, policies, and expectations for research group members (and may be helpful for collaborators to consult). The manual contains three sections:\n\nLab Values outlines the expectations we have for each other and ourselves to ensure a functional, healthy, and productive lab group; it is not a marketplace for Labrador Retrievers.\nOnboarding is your first stop as a new lab member (and may be helpful for others) to get your working environment and workflows set up.\nGuide is the home of our (always growing!) lab resources, how-tos, and tips for building a strong knowedge foundation for the kind of work we do in the group."
-  },
-  {
-    "objectID": "index.html#credit",
-    "href": "index.html#credit",
-    "title": "Welcome to the Keller Group Lab Manual!",
-    "section": "Credit",
-    "text": "Credit\nThe organization and content of this lab manual borrows heavily from several documents:\n\nThe Quarto Website & GitHub Repository\nThe Srikrishnan Group at BEE Cornell Lab Manual\nThe Reed Group at Cornel CEE Lab Manual\nThe Julia Workshop for Data Science at ISMB, 2022\n\nA huge thank you to all of these sources for making their work open and instructive!\nWe also thank Adam Pollack for putting together the first draft of the lab manual, leading initial revisions, and coordinating group contributions to the manual. Adam acknowledges the use of several LLMs (e.g., Claude 3.5 Sonnet, GPT-4o, and Llama 3.2 11b) made available by Dartmouth."
-  },
-  {
-    "objectID": "docs/resources.html",
-    "href": "docs/resources.html",
-    "title": "Additional Resources",
-    "section": "",
-    "text": "There are a number of resources you should familiarize yourself with as a part of your onboarding. It may also be helpful to revisit this list from time to time after you settle in. Poke around and see what is useful to adopt in your workflows.",
-    "crumbs": [
-      "Onboarding",
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "docs/resources.html#resources-for-research",
-    "href": "docs/resources.html#resources-for-research",
-    "title": "Additional Resources",
-    "section": "Resources for Research",
-    "text": "Resources for Research\n\nDartmouth Libraries\n\nDefinitely check out the links connected to Data Services.\nThere are nice workshop series for learning the fundamentals of topics like python, LaTeX, GitHub, etc., Check them out and contribute your knowledge to the manual!\n\nThayer School Computing Services Knowledge Base.\n\nNot extensive but several articles will likely become a key part of your workflows\n\nAI Tools repository.\n\nWe are very lucky to have access to a number of AI tools, especially the Dartmouth Chat app that supports commercial and open-source models for all Dartmouth members.",
-    "crumbs": [
-      "Onboarding",
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "docs/resources.html#resources-for-life",
-    "href": "docs/resources.html#resources-for-life",
-    "title": "Additional Resources",
-    "section": "Resources for life",
-    "text": "Resources for life\n\nEnjoy the upper valley!!\n\nExplore\nConnect to existing communities\n\nHousing in the upper valley\n\nRentals for grad students and postdocs\nCraigslist sometimes has good finds\n\nGood Facebook marketplace for furniture!\nTake the bus if you can",
-    "crumbs": [
-      "Onboarding",
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "docs/lab-values/index.html",
-    "href": "docs/lab-values/index.html",
-    "title": "Lab Values",
-    "section": "",
-    "text": "Figure 1: Sorry, Klaus, this is not about doggos. Credit: https://www.pexels.com/photo/photo-of-dog-laying-on-grass-3039079/\n\n\n\nOur group holds the following core values (in no particular order):\n\nTransparency: We share our research process, code, data, and limitations openly. We aim to be explicit about the values-laden nature of our work. We push ourselves to communicate honestly and clearly.\nAccessibility: We aim to make our research understandable and available to both academic and public audiences. We design our shared workspaces to accommodate different needs of group members and foster an open environment in which members can confidently request accommodations.\nInclusivity: We believe the healthiest lab environment and best science happens when people with different viewpoints and experiences work together. We actively foster such an environment and aim to make the Keller Group a place where all members feel like they can completely be themselves.\nCuriosity: We crave a lab environment filled with creative ideas, questions, open exchange, and boundary pushing.\nWork-life balance: We understand that research is just one part of who we are. We maintain clear boundaries between work and personal time, and support each other in pursuing interests and commitments outside the lab.\nContributing to real-world problems: Our research is motivated by, and reponsive to, pressing societal challenges. We wish they weren’t so hard and consequential, but we love thinking about wicked problems! We strive to make meaningful impacts beyond academia. This often calls for a transdisciplinary, collaborative, and integrative approach that we all enjoy.\nExcellence: We strive for excellence in all our activities. For example, we want the paper we’re working on to be our best and we treat every talk like a job talk. We are careful, rigorous, and polished. In the words of John Wooden, “if you don’t have time to do it right, when will you have time to do it over?”"
-  },
-  {
-    "objectID": "docs/materials/reproduce-repos.html",
-    "href": "docs/materials/reproduce-repos.html",
-    "title": "Reproduce Our Projects!",
-    "section": "",
-    "text": "Good Contribution Opportunity!\n\n\n\nAdd entries to data/repos.yml! Think of a better way to organize the GitHub repos and display the information so other lab members can choose the projects most relevant to their trajectory. Test out your changes and open a pull request!\n\n\n\n\nCode\nimport pandas as pd\nimport yaml\nfrom itables import init_notebook_mode, show\nimport itables.options as opt\nfrom pathlib import Path\nimport re\n\n# Initialize itables\ninit_notebook_mode(all_interactive=True)\n\n# Function to make DOIs clickable\ndef make_doi_clickable(text):\n    doi_pattern = r'(https://doi\\.org/[^\\s)]+)'\n    return re.sub(doi_pattern, r'&lt;a href=\"\\1\" target=\"_blank\"&gt;\\1&lt;/a&gt;', text)\n\n# Create relative path to repos file\n# Goes up two levels (../../) from current .qmd location to reach root\nrepo_path = Path('../../data/repos.yml')\n\n# Load YAML data\nwith open(repo_path, 'r') as f:\n    data = yaml.safe_load(f)\n\n# Convert to DataFrame\ndf = pd.DataFrame(data['repos'])\n\n# Make DOIs clickable in reference column\ndf['reference'] = df['reference'].apply(make_doi_clickable)\n\n# Format the repo column to include HTML links\ndf['repo'] = df.apply(lambda x: f'&lt;a href=\"{x[\"repo\"][\"url\"]}\" target=\"_blank\"&gt;{x[\"repo\"][\"name\"]}&lt;/a&gt;', axis=1)\n\n# Join topics with semicolons\ndf['topics'] = df['topics'].apply(lambda x: '; '.join(x))\n\n# Configure itables options\nopt.classes = [\"display\", \"cell-border\"]\nopt.columnDefs = [\n    {   # Reference column\n        \"width\": \"50%\", \n        \"targets\": 0\n    },  \n    {   # Year column\n        \"width\": \"5%\", \n        \"targets\": 1,\n        \"className\": \"dt-left\"\n    },   \n    {   # Repo column\n        \"width\": \"15%\", \n        \"targets\": 2\n    },  \n    {   # Topics column\n        \"width\": \"30%\", \n        \"targets\": 3\n    }   \n]\nopt.showIndex = False\n\n# By default, show newest to oldest\nsorted_df = df.sort_values('year', ascending=False)\n\n# Display the interactive table\nshow(sorted_df)\n\n\n\n\n\n\n\n\n\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\nThis is the init_notebook_mode cell from ITables v2.2.4\n(you should not see this message - is your notebook trusted?)\n\n\n\n\n\n\n    \n      \n      reference\n      year\n      repo\n      topics\n    \n  \n\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\nLoading ITables v2.2.4 from the init_notebook_mode cell...\n(need help?)",
-    "crumbs": [
-      "Guide",
-      "Learning Materials",
-      "Repositories"
-    ]
-  },
-  {
-    "objectID": "docs/sci-comm/our-goals.html",
-    "href": "docs/sci-comm/our-goals.html",
-    "title": "Our Science Communication Goals",
-    "section": "",
-    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\nThe idea of this page is to lay out why we care about science communication and providing context about the subsequent guides on being a good communicator for mediums such as presentations, papers, paper contracts, etc., Our goals might follow the message box format -&gt; clear issue, audience, problem statement, so what, etc., Could change this from “goals” to “approach” as well.",
-    "crumbs": [
-      "Guide",
-      "Science Communication",
-      "Our Goals"
-    ]
-  },
-  {
-    "objectID": "docs/onboarding/index.html",
-    "href": "docs/onboarding/index.html",
-    "title": "Onboarding",
-    "section": "",
-    "text": "Congratulations on joining the Keller group! You are going to have a lot of fun over the next few years. Things are probably moving fast and you might feel overwhelmed by the pace, your big ideas, Klaus’s big ideas, and a steep learning curve for some of the skills you need to do your research well. This manual can help you get on the track to accomplishing your goals. To settle in, follow the onboarding checklists. The first two are quick and the rest should keep you busy as you iterate on paper ideas with Klaus.",
-    "crumbs": [
-      "Onboarding"
-    ]
-  },
-  {
-    "objectID": "docs/onboarding/index.html#welcome",
-    "href": "docs/onboarding/index.html#welcome",
-    "title": "Onboarding",
-    "section": "",
-    "text": "Congratulations on joining the Keller group! You are going to have a lot of fun over the next few years. Things are probably moving fast and you might feel overwhelmed by the pace, your big ideas, Klaus’s big ideas, and a steep learning curve for some of the skills you need to do your research well. This manual can help you get on the track to accomplishing your goals. To settle in, follow the onboarding checklists. The first two are quick and the rest should keep you busy as you iterate on paper ideas with Klaus.",
-    "crumbs": [
-      "Onboarding"
-    ]
-  },
-  {
-    "objectID": "docs/onboarding/index.html#checklists",
-    "href": "docs/onboarding/index.html#checklists",
-    "title": "Onboarding",
-    "section": "Checklists",
-    "text": "Checklists\n\n\n\nOrder\nTopic\nExpected Commitment\n\n\n\n\n1\nCoordinate with Klaus\n&lt; 1 week\n\n\n2\nSet up work environment\n&lt; 1 week\n\n\n3\nWork through reading lists\n4 (PhD) or 8 (postdoc) hrs per week\n\n\n3\nWork through the guide\n4 (PhD) or 8 (postdoc) hrs per week\n\n\n3\nReproduce relevant studies\n1-2 hours if you’re lucky",
-    "crumbs": [
-      "Onboarding"
-    ]
-  },
-  {
-    "objectID": "docs/onboarding/index.html#resources",
-    "href": "docs/onboarding/index.html#resources",
-    "title": "Onboarding",
-    "section": "Resources",
-    "text": "Resources\nThere are also some webpages we think you should be aware of. We provide a list and description here.",
-    "crumbs": [
-      "Onboarding"
-    ]
-  },
-  {
     "objectID": "docs/analysis/lab-github.html",
     "href": "docs/analysis/lab-github.html",
     "title": "Our Group’s Common GitHub Use Cases",
@@ -334,5 +172,167 @@
       "Data Analysis",
       "Common GitHub Use Cases"
     ]
+  },
+  {
+    "objectID": "docs/onboarding/index.html",
+    "href": "docs/onboarding/index.html",
+    "title": "Onboarding",
+    "section": "",
+    "text": "Congratulations on joining the Keller group! You are going to have a lot of fun over the next few years. Things are probably moving fast and you might feel overwhelmed by the pace, your big ideas, Klaus’s big ideas, and a steep learning curve for some of the skills you need to do your research well. This manual can help you get on the track to accomplishing your goals. To settle in, follow the onboarding checklists. The first two are quick and the rest should keep you busy as you iterate on paper ideas with Klaus.",
+    "crumbs": [
+      "Onboarding"
+    ]
+  },
+  {
+    "objectID": "docs/onboarding/index.html#welcome",
+    "href": "docs/onboarding/index.html#welcome",
+    "title": "Onboarding",
+    "section": "",
+    "text": "Congratulations on joining the Keller group! You are going to have a lot of fun over the next few years. Things are probably moving fast and you might feel overwhelmed by the pace, your big ideas, Klaus’s big ideas, and a steep learning curve for some of the skills you need to do your research well. This manual can help you get on the track to accomplishing your goals. To settle in, follow the onboarding checklists. The first two are quick and the rest should keep you busy as you iterate on paper ideas with Klaus.",
+    "crumbs": [
+      "Onboarding"
+    ]
+  },
+  {
+    "objectID": "docs/onboarding/index.html#checklists",
+    "href": "docs/onboarding/index.html#checklists",
+    "title": "Onboarding",
+    "section": "Checklists",
+    "text": "Checklists\n\n\n\nOrder\nTopic\nExpected Commitment\n\n\n\n\n1\nCoordinate with Klaus\n&lt; 1 week\n\n\n2\nSet up work environment\n&lt; 1 week\n\n\n3\nWork through reading lists\n4 (PhD) or 8 (postdoc) hrs per week\n\n\n3\nWork through the guide\n4 (PhD) or 8 (postdoc) hrs per week\n\n\n3\nReproduce relevant studies\n1-2 hours if you’re lucky",
+    "crumbs": [
+      "Onboarding"
+    ]
+  },
+  {
+    "objectID": "docs/onboarding/index.html#resources",
+    "href": "docs/onboarding/index.html#resources",
+    "title": "Onboarding",
+    "section": "Resources",
+    "text": "Resources\nThere are also some webpages we think you should be aware of. We provide a list and description here.",
+    "crumbs": [
+      "Onboarding"
+    ]
+  },
+  {
+    "objectID": "docs/analysis/our-approach.html",
+    "href": "docs/analysis/our-approach.html",
+    "title": "Our Approach to Data Analysis",
+    "section": "",
+    "text": "We conduct data analysis for three interconnected goals. First, we want to mechanistically understand past changes in the Earty system. Second, we want to project plausible future changes in the Earty system. Finally, we want to use this information to design sustainable, scientifically sound, technologically feasible, economically efficient, and ethically defensible risk management strategies. Our data analysis draws from a wide range of disciplines including engineering, Earth sciences, economics, philosophy, decision science, and statistics.\nWe believe that for our analyses to be useful and used, they must be transparent, rigorous, interpretable, and reusable.\nThe checklist below — designed by Klaus Keller, James Doss-Gollin, and Vivek Srikrishnan — provides the countours of our workflows to achieve our analysis goals:\n\nSetting up the analysis\n\nLegal and ethical questions assessed\nClear question(s) defined\nLink to decision-making established\nPossible design errors discussed (types I, II, III, IV)\nLicense defined\nCopyright defined\nAuthors defined\n\nChoosing a methods portfolio\n\nBayesian vs Frequentist chosen\nAnalytical vs computational approach chosen\nData generating model defined\nLikelihood function defined\n(Implicit) prior (with correlations) defined\nRequired approximations defined\n(Likelihood function, model structure, uncertainties, …)\nAssumptions spelled out\nPositive controls (across key methods and assumptions) performed\nNegative control (across key methods and assumptions) performed\nExpected results (with time-stamp) documented\n\nPerforming the analysis\n\nConvergence tested (if using numerical methods)\nAssumptions tested (e.g., residuals consistent with likelihood function)\nPrior prediction checks passed\nPosterior predictive checks passed\nSize and effects of (deep uncertainties / forking paths) characterized\n\nDocumenting the analysis\n\nAuthors named and reachable\nEnvironment variables documented\nAssumptions and robustness discussed\nCode reviewed for logic and consistency with documentation\nFigures publication ready\nDocumentation accessible to intended / target audience(s)\nAll sources cited\nNon-author contributors acknowledged\nFunding acknowledged\nConflict of interest declared\nMaterials uploaded to repository",
+    "crumbs": [
+      "Guide",
+      "Data Analysis",
+      "Our Approach"
+    ]
+  },
+  {
+    "objectID": "docs/analysis/our-approach.html#overview",
+    "href": "docs/analysis/our-approach.html#overview",
+    "title": "Our Approach to Data Analysis",
+    "section": "",
+    "text": "We conduct data analysis for three interconnected goals. First, we want to mechanistically understand past changes in the Earty system. Second, we want to project plausible future changes in the Earty system. Finally, we want to use this information to design sustainable, scientifically sound, technologically feasible, economically efficient, and ethically defensible risk management strategies. Our data analysis draws from a wide range of disciplines including engineering, Earth sciences, economics, philosophy, decision science, and statistics.\nWe believe that for our analyses to be useful and used, they must be transparent, rigorous, interpretable, and reusable.\nThe checklist below — designed by Klaus Keller, James Doss-Gollin, and Vivek Srikrishnan — provides the countours of our workflows to achieve our analysis goals:\n\nSetting up the analysis\n\nLegal and ethical questions assessed\nClear question(s) defined\nLink to decision-making established\nPossible design errors discussed (types I, II, III, IV)\nLicense defined\nCopyright defined\nAuthors defined\n\nChoosing a methods portfolio\n\nBayesian vs Frequentist chosen\nAnalytical vs computational approach chosen\nData generating model defined\nLikelihood function defined\n(Implicit) prior (with correlations) defined\nRequired approximations defined\n(Likelihood function, model structure, uncertainties, …)\nAssumptions spelled out\nPositive controls (across key methods and assumptions) performed\nNegative control (across key methods and assumptions) performed\nExpected results (with time-stamp) documented\n\nPerforming the analysis\n\nConvergence tested (if using numerical methods)\nAssumptions tested (e.g., residuals consistent with likelihood function)\nPrior prediction checks passed\nPosterior predictive checks passed\nSize and effects of (deep uncertainties / forking paths) characterized\n\nDocumenting the analysis\n\nAuthors named and reachable\nEnvironment variables documented\nAssumptions and robustness discussed\nCode reviewed for logic and consistency with documentation\nFigures publication ready\nDocumentation accessible to intended / target audience(s)\nAll sources cited\nNon-author contributors acknowledged\nFunding acknowledged\nConflict of interest declared\nMaterials uploaded to repository",
+    "crumbs": [
+      "Guide",
+      "Data Analysis",
+      "Our Approach"
+    ]
+  },
+  {
+    "objectID": "docs/analysis/our-approach.html#motivating-references",
+    "href": "docs/analysis/our-approach.html#motivating-references",
+    "title": "Our Approach to Data Analysis",
+    "section": "Motivating References",
+    "text": "Motivating References\n\nDoss-Gollin, J., & Keller, K. (2022). A subjective Bayesian framework for synthesizing deep uncertainties in climate risk management. Earth’s Future. https://doi.org/10.1029/2022ef003044\nGelman, A., Vehtari, A., Simpson, D., Margossian, C. C., Carpenter, B., Yao, Y., et al. (2020, November 3). Bayesian Workflow. arXiv [stat.ME]. Retrieved from http://arxiv.org/abs/2011.01808\nPollack, A., Auermuller, L., Burleyson, C., Campbell, J. E., Condon, M., Cooper, C., et al. (2023, December). Investing in open and FAIR practices for more usable and equitable climate-risk research. Preprint. Retrieved from http://dx.doi.org/10.31219/osf.io/29nhv",
+    "crumbs": [
+      "Guide",
+      "Data Analysis",
+      "Our Approach"
+    ]
+  },
+  {
+    "objectID": "docs/checklists.html",
+    "href": "docs/checklists.html",
+    "title": "Onboarding Checklists",
+    "section": "",
+    "text": "Have fun and be safe\nReview your personal motivation, values, and professional goals",
+    "crumbs": [
+      "Onboarding",
+      "Checklists"
+    ]
+  },
+  {
+    "objectID": "docs/checklists.html#the-basics",
+    "href": "docs/checklists.html#the-basics",
+    "title": "Onboarding Checklists",
+    "section": "",
+    "text": "Have fun and be safe\nReview your personal motivation, values, and professional goals",
+    "crumbs": [
+      "Onboarding",
+      "Checklists"
+    ]
+  },
+  {
+    "objectID": "docs/checklists.html#coordinate",
+    "href": "docs/checklists.html#coordinate",
+    "title": "Onboarding Checklists",
+    "section": "Coordinate with Klaus",
+    "text": "Coordinate with Klaus\nThis document is available as a pdf (see the right margin) so that you may download and check/highlight items as you complete them.\n\nBefore first meeting\n\nReview Lab Values\nSet up your calendar (e.g., Outlook)\n\nBlock out working and lunch hours\nLeave room for lab meetings, journal club, etc.,\nSet up your weekly meeting schedule with Klaus\n\nAccept Klaus’s invitation to our group’s lab meeting GitHub repo\nMake sure you have access to the group’s shared-folders directory on Google Drive\nFind out who to ask for lab meeting invite\nFind out who to ask for Slack workspace invite\nFind out who to ask for webpage profile\nFind out who to talk to at Irving or Thayer for your ID card, office access, etc., if you don’t already know\n\nThis is a good start\n\nGet situated in your office space\n\nGet equipment (currently Siqi will help with this)\nThayer IT can help set up your laptop\n\nIntroduce yourself to the staff that help make our group successful\n\nCate Albright\nJentry Campbell\nIrving Staff (e.g., Molly Dunn)\n\nDiscuss research interests and potential projects\n\n\n\nAfter first meeting\n\nSend photo, bio, contact, socials to web manager\n\nCheck out existing profiles for examples\n\nJoin group Slack and browse/join channels\n Thayer Computing for access to Kasper and jumbo/keller-lab/ and CC Klaus (he will tell computing gurus it is ok to add you)\nWork through required trainings\n\nDartmouth will have some for you\nYou may want to do human subjects training\nGet driving approval\n\n\n\n\nBefore first lab meeting\n\nCheck out the lab meeting repo and add yourself to the next presentation block\n\nNote: Depending on your experience level, you may find it helpful to consult some examples.\n\nPrepare a 5 minute max presentation to introduce yourself to the group\n\nReview our presentation guidelines\n\n\n\n\nLosing your training wheels\nNow that you have followed these steps, your tasks in the group will become more organic and unique to your chosen path. There is some reading material we strongly recommend for all lab members (and Klaus may assign some), but you can otherwise go through the reading list as best suits your early exploration and planning stages. Otherwise, work through the tutorials in the Guide and find projects to reproduce!",
+    "crumbs": [
+      "Onboarding",
+      "Checklists"
+    ]
+  },
+  {
+    "objectID": "docs/checklists.html#setup",
+    "href": "docs/checklists.html#setup",
+    "title": "Onboarding Checklists",
+    "section": "Set up work environment",
+    "text": "Set up work environment\nIf you work from a Dartmouth laptop, it will come equipped with a lot of helpful software and functionality. If not, you may have to contribute to the manual to offer guidance for setting up software, tools, etc., Either way, there are still set up steps you will have to follow, such as:\n\n\n\n\n\n\n\n\nNote\n\n\n\nIt would be great to have guide entries about selecting between various reference managers, and setting up our coding environments!\n\n\n\nChoose a reference manager (e.g., Zotero or Paperpile)\n\nMany of us use Paperpile because of its Chrome plugin and integration into Google Docs, but Zotero might play better with collaborators and other workflows\n\nSet up a GitHub account if you don’t have one already\nConfigure your GitHub with SSH\nSet up your coding environment\n\nMany of us use VSCode for our IDE. You can SSH onto Kasper or work locally through the same interface.\n\nDartmouth also offers FastX.\nOr, you can run a Jupyter Notebook on Kasper or a HPC node. See here.\n\nSet up online profiles\n\nResearchgate\nGoogle scholar\n\nSet up a Google Drive for collaboration\n\nYou can set up a shared drive or share specific folders\n\nInstall software that you need for your work. For example, many of us use mamba for package management\n\nWhile this is an incomplete list, it will hopefully be enough to get you going for the reading list and the guide",
+    "crumbs": [
+      "Onboarding",
+      "Checklists"
+    ]
+  },
+  {
+    "objectID": "docs/materials/reproduce-repos.html",
+    "href": "docs/materials/reproduce-repos.html",
+    "title": "Reproduce Our Projects!",
+    "section": "",
+    "text": "Good Contribution Opportunity!\n\n\n\nAdd entries to data/repos.yml! Think of a better way to organize the GitHub repos and display the information so other lab members can choose the projects most relevant to their trajectory. Test out your changes and open a pull request!\n\n\n\n\nCode\nimport pandas as pd\nimport yaml\nfrom itables import init_notebook_mode, show\nimport itables.options as opt\nfrom pathlib import Path\nimport re\n\n# Initialize itables\ninit_notebook_mode(all_interactive=True)\n\n# Function to make DOIs clickable\ndef make_doi_clickable(text):\n    doi_pattern = r'(https://doi\\.org/[^\\s)]+)'\n    return re.sub(doi_pattern, r'&lt;a href=\"\\1\" target=\"_blank\"&gt;\\1&lt;/a&gt;', text)\n\n# Create relative path to repos file\n# Goes up two levels (../../) from current .qmd location to reach root\nrepo_path = Path('../../data/repos.yml')\n\n# Load YAML data\nwith open(repo_path, 'r') as f:\n    data = yaml.safe_load(f)\n\n# Convert to DataFrame\ndf = pd.DataFrame(data['repos'])\n\n# Make DOIs clickable in reference column\ndf['reference'] = df['reference'].apply(make_doi_clickable)\n\n# Format the repo column to include HTML links\ndf['repo'] = df.apply(lambda x: f'&lt;a href=\"{x[\"repo\"][\"url\"]}\" target=\"_blank\"&gt;{x[\"repo\"][\"name\"]}&lt;/a&gt;', axis=1)\n\n# Join topics with semicolons\ndf['topics'] = df['topics'].apply(lambda x: '; '.join(x))\n\n# Configure itables options\nopt.classes = [\"display\", \"cell-border\"]\nopt.columnDefs = [\n    {   # Reference column\n        \"width\": \"50%\", \n        \"targets\": 0\n    },  \n    {   # Year column\n        \"width\": \"5%\", \n        \"targets\": 1,\n        \"className\": \"dt-left\"\n    },   \n    {   # Repo column\n        \"width\": \"15%\", \n        \"targets\": 2\n    },  \n    {   # Topics column\n        \"width\": \"30%\", \n        \"targets\": 3\n    }   \n]\nopt.showIndex = False\n\n# By default, show newest to oldest\nsorted_df = df.sort_values('year', ascending=False)\n\n# Display the interactive table\nshow(sorted_df)\n\n\n\n\n\n\n\n\n\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\nThis is the init_notebook_mode cell from ITables v2.2.4\n(you should not see this message - is your notebook trusted?)\n\n\n\n\n\n\n    \n      \n      reference\n      year\n      repo\n      topics\n    \n  \n\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\nLoading ITables v2.2.4 from the init_notebook_mode cell...\n(need help?)",
+    "crumbs": [
+      "Guide",
+      "Learning Materials",
+      "Repositories"
+    ]
+  },
+  {
+    "objectID": "docs/sci-comm/presentation-guidelines.html",
+    "href": "docs/sci-comm/presentation-guidelines.html",
+    "title": "Presentation Guidelines",
+    "section": "",
+    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nGeneral principles\nChecklist\nExamples/Gallery",
+    "crumbs": [
+      "Guide",
+      "Science Communication",
+      "Presentations"
+    ]
+  },
+  {
+    "objectID": "docs/prof-dev.html",
+    "href": "docs/prof-dev.html",
+    "title": "Professional Development",
+    "section": "",
+    "text": "Warning\n\n\n\nThis page is under construction! The content here is currently for planning purposes.\n\n\n\nOverview\nQuestions to ask oneself through career\nSome helpful resources\n\nApplication checklist\nBuilding a cv\nBuilding a personal webpage",
+    "crumbs": [
+      "Guide",
+      "Professional Development"
+    ]
+  },
+  {
+    "objectID": "docs/lab-values/index.html",
+    "href": "docs/lab-values/index.html",
+    "title": "Lab Values",
+    "section": "",
+    "text": "Figure 1: Sorry, Klaus, this is not about doggos. Credit: https://www.pexels.com/photo/photo-of-dog-laying-on-grass-3039079/\n\n\n\nOur group holds the following core values (in no particular order):\n\nTransparency: We share our research process, code, data, and limitations openly. We aim to be explicit about the values-laden nature of our work. We push ourselves to communicate honestly and clearly.\nAccessibility: We aim to make our research understandable and available to both academic and public audiences. We design our shared workspaces to accommodate different needs of group members and foster an open environment in which members can confidently request accommodations.\nInclusivity: We believe the healthiest lab environment and best science happens when people with different viewpoints and experiences work together. We actively foster such an environment and aim to make the Keller Group a place where all members feel like they can completely be themselves.\nCuriosity: We crave a lab environment filled with creative ideas, questions, open exchange, and boundary pushing.\nWork-life balance: We understand that research is just one part of who we are. We maintain clear boundaries between work and personal time, and support each other in pursuing interests and commitments outside the lab.\nContributing to real-world problems: Our research is motivated by, and reponsive to, pressing societal challenges. We wish they weren’t so hard and consequential, but we love thinking about wicked problems! We strive to make meaningful impacts beyond academia. This often calls for a transdisciplinary, collaborative, and integrative approach that we all enjoy.\nExcellence: We strive for excellence in all our activities. For example, we want the paper we’re working on to be our best and we treat every talk like a job talk. We are careful, rigorous, and polished. In the words of John Wooden, “if you don’t have time to do it right, when will you have time to do it over?”"
   }
 ]
