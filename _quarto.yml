@@ -6,8 +6,8 @@ execute:
 
 website:
   title: "Keller Group Lab Manual"
-  repo-url: https://github.com/abpoll/web-manual
-  issue-url: https://github.com/abpoll/web-manual/issues
+  repo-url: https://github.com/keller-lab/web-manual
+  issue-url: https://github.com/keller-lab/web-manual/issues
   repo-actions: [edit, issue]
   page-footer:
     right:
@@ -30,9 +30,9 @@ website:
        - icon: github
          menu:
           - text: Source Code
-            href:  https://github.com/abpoll/web-manual
+            href:  https://github.com/keller-lab/web-manual
           - text: Report a Bug
-            href:  https://github.com/abpoll/web-manual/issues
+            href:  https://github.com/keller-lab/web-manual/issues
 
   sidebar:
     - id: onboarding
